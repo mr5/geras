@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+    .menu-horizontal .menu-item{
+        width: 100%;
+        display: block;
+        /*border-bottom: 1px solid #f3f2f1;*/
+    }
+
+    .menu-horizontal .menu-item {
+
+    }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Menus Tests</title>
+
+    <link rel="stylesheet" href="../../../base/css/base.css">
+    <link rel="stylesheet" href="../../../buttons/css/buttons.css">
+    <link rel="stylesheet" href="../../../menus/css/menus.css">
+    <link rel="stylesheet" href="../../../menus/css/menus-r.css">
+
+    <link rel="stylesheet" href="../../../../../build/grids.css">
+
+
+    <style>
+        html {
+            background: #f5f7fa;
+        }
+
+        .container {
+            margin: 3em;
+            background: white;
+            border-radius: 5px;
+            padding: 1.5em;
+            /*margin-top: 80px;*/
+        }
+
+        #menu-1 {
+            border: 1px solid;
+        }
+
+        #menu-1 li a {
+            padding: 10px 20px;
+            background: rgb(150, 209, 255);
+        }
+        .menu-blue {
+            border:none;
+            width: 230px;
+        }
+        .menu-blue a{
+            border-radius: 5px;
+        }
+        .menu-blue .menu-item a:hover {
+            background: #eee;
+        }
+        .menu-blue.menu .active  a{
+            background: #428bca;
+            /*background: none;*/
+            color: white;
+        }
+
+        .menu-red .menu-item a:hover, .menu-red.menu .active a {
+            color: #ed5567;
+            text-decoration: none;
+            background: #fff;
+        }
+        /*.menu.menu-horizontal {*/
+        /*width: 100%;*/
+        /*}*/
+        /*.menu.menu-horizontal a{*/
+        /*color: #6FBEF3;*/
+        /*}*/
+        /*.menu.menu-horizontal .menu-item a:hover, .menu.menu-horizontal .active a,{*/
+        /*color: white;*/
+        /*background: none;*/
+        /*}*/
+    </style>
+</head>
+
+<body>
+<ul class="menu  menu-horizontal clearfix menu-inverse">
+    <!--<li class="menu-item menu-heading">-->
+        <!--DEMETER-->
+    <!--</li>-->
+
+    <li class="menu-item">
+        <a href="../../../buttons/tests/manual/button.html" class="icon-bars">buttons</a>
+        <!--                <cite class="list-item-badge">12</cite>-->
+    </li>
+    <li class="menu-item">
+        <a href="../../../forms/tests/manual/forms.html">forms</a>
+    </li>
+    <li class="menu-item">
+        <a href="../../../grids/tests/manual/responsive.html">grids</a>
+    </li>
+    <li class="menu-item active">
+        <a href="../../../menus/tests/manual/menus.html">menus</a>
+    </li>
+    <li class="menu-item">
+        <a href="../../../tables/tests/manual/tables.html" class="icon-pencil">tables</a>
+    </li>
+
+</ul>
+
+<div class="container">
+    <div class="clear"></div>
+    <br/>
+
+    <h2>横排菜单</h2>
+    <br/>
+    <ul class="menu menu-horizontal menu-red ">
+        <li class=" menu-heading">
+            BaseHub
+        </li>
+        <li class="menu-item active" id="J_nav_home">
+            <a href="http://laravel.test/admin" class="icon-bars">基础面板</a>
+            <!--                <cite class="list-item-badge">12</cite>-->
+        </li>
+        <li class="menu-item">
+            <a href="" class="icon-users" data-toggle="dropdown">用户管理</a>
+        </li>
+        <li class="menu-item" id="J_nav_app">
+            <a href="http://laravel.test/admin/app/index" class="icon-apple">应用管理</a>
+        </li>
+        <li class="menu-item" id="J_nav_soa">
+            <a href="#" class="icon-bubble">SOA管理</a>
+        </li>
+
+        <li class="menu-item" id="J_nav_system">
+            <a href="###" class="icon-pencil">系统设置</a>
+        </li>
+        <li class="menu-item" id="J_nav_oauth">
+            <a href="http://laravel.test/admin/oauth/index" class="icon-pencil">OAuth管理</a>
+        </li>
+        <li class="menu-item" id="J_nav_openapi">
+            <a href="###" class="icon-pencil">开放平台</a>
+        </li>
+        <li class="menu-item" id="J_nav_crontab">
+            <a href="###" class="icon-pencil">任务管理</a>
+        </li>
+    </ul>
+    <div class="clear"></div>
+
+    <br/>
+
+    <h2>竖排菜单</h2>
+    <br/>
+
+    <div class="pure-g">
+        <ul class="menu" style="width:170px;">
+            <li class="menu-item active">
+                <a href="http://laravel.test/admin" class="icon-bars">基础面板</a>
+                <!--                <cite class="list-item-badge">12</cite>-->
+            </li>
+            <li class="menu-item">
+                <a href="" class="icon-users" data-toggle="dropdown">用户管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="http://laravel.test/admin/app/index" class="icon-apple">应用管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="icon-bubble">SOA管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">系统设置</a>
+            </li>
+            <li class="menu-item menu-heading">
+                更多
+            </li>
+            <li class="menu-item">
+                <a href="http://laravel.test/admin/oauth/index" class="icon-pencil">OAuth管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">开放平台</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">任务管理</a>
+            </li>
+        </ul>
+    </div>
+    <br/>
+
+    <h2>自定义颜色</h2>
+    <br/>
+
+    <div class="pure-g">
+        <ul class="menu pure-u-1-4 menu-blue">
+            <li class="menu-item active">
+                <a href="http://laravel.test/admin" class="icon-bars">基础面板</a>
+                <cite class="menu-item-badge">12</cite>
+            </li>
+            <li class="menu-item">
+                <a href="" class="icon-users" data-toggle="dropdown">用户管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="http://laravel.test/admin/app/index" class="icon-apple">应用管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="icon-bubble">SOA管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">系统设置</a>
+            </li>
+            <li class="menu-item menu-heading">
+                更多
+            </li>
+            <li class="menu-item">
+                <a href="http://laravel.test/admin/oauth/index" class="icon-pencil">OAuth管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">开放平台</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">任务管理</a>
+            </li>
+        </ul>
+    </div>
+
+    <br/>
+
+    <h2>自定义颜色</h2>
+    <br/>
+
+    <div class="pure-g">
+        <ul class="menu pure-u-1-4 menu-red">
+            <li class="menu-item active">
+                <a href="http://laravel.test/admin" class="icon-bars">基础面板</a>
+                <!--                <cite class="list-item-badge">12</cite>-->
+            </li>
+            <li class="menu-item">
+                <a href="" class="icon-users" data-toggle="dropdown">用户管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="http://laravel.test/admin/app/index" class="icon-apple">应用管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="icon-bubble">SOA管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">系统设置</a>
+            </li>
+            <li class="menu-item menu-heading">
+                更多
+            </li>
+            <li class="menu-item">
+                <a href="http://laravel.test/admin/oauth/index" class="icon-pencil">OAuth管理</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">开放平台</a>
+            </li>
+            <li class="menu-item">
+                <a href="###" class="icon-pencil">任务管理</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

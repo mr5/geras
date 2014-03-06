@@ -1,0 +1,416 @@
+/*csslint important:false*/
+
+/* ==========================================================================
+   Pure Base Extras
+   ========================================================================== */
+
+/**
+ * Extra rules that Pure adds on top of Normalize.css
+ */
+
+/**
+ * Always hide an element when it has the `hidden` HTML attribute.
+ */
+
+[hidden] {
+    display: none !important;
+}
+html {
+    margin: 0;
+    /*font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;*/
+    font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica,Arial,Sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #656d78;
+    text-rendering: optimizelegibility;
+
+}
+
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+
+
+article, aside, details, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*body {*/
+    /*margin: 0;*/
+    /*font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;*/
+    /*font-size: 14px;*/
+    /*line-height: 20px;*/
+    /*color: $color_font;*/
+
+
+/*}*/
+
+
+body, button, input, select, textarea {
+
+    font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica,Arial,Sans-serif;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+th {
+    text-align: inherit;
+}
+
+
+fieldset, img {
+    border: 0;
+}
+
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+
+iframe {
+    display: block;
+}
+
+
+blockquote {
+    margin: 1em 0;
+    padding: 0.6em 1em;
+    background: #f9f9f9;
+    border-left: 0.4em solid #ddd;
+}
+
+blockquote blockquote {
+    padding: 0 0 0 1em;
+    margin-left: 2em;
+}
+
+
+acronym, abbr {
+    border-bottom: 1px dotted;
+    font-variant: normal;
+}
+
+
+abbr {
+    cursor: help;
+}
+
+
+del {
+    text-decoration: line-through;
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+
+caption, th {
+    text-align: left;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: text-top\9;
+}
+
+:root sub, :root sup {
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.8em;
+}
+
+sub {
+    bottom: -0.3em;
+}
+
+
+/*a:hover {*/
+
+    /*color: #318cd9;*/
+/*}*/
+
+
+ins, a {
+    text-decoration: none;
+}
+
+u, .typo-u {
+    text-decoration: underline;
+}
+
+
+mark {
+    background: #fffdd1;
+}
+
+
+code {
+    border: 1px dashed #eee;
+    color: #27ae60;
+    padding: 0 3px;
+}
+
+pre, code {
+    font-family: Inconslata, Consolas, Courier, Courier New, monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre {
+    background: #f9f9f9;
+    padding: 10px 15px;
+    line-height: 1.36;
+    color: #555;
+
+}
+
+
+small, .typo-small, .small,
+
+figcaption {
+    font-size: 1em;
+    color: #888;
+}
+
+
+button, input {
+    *width: auto;
+    *overflow: visible;
+    /*line-height: 1.8;*/
+}
+
+a {
+    color: #1975c3;
+}
+
+
+hr {
+    border: none;
+    border-bottom: 1px solid #cfcfcf;
+    margin-bottom: 10px;
+    *color: pink;
+    *filter: chroma(color=pink);
+    height: 10px;
+    *margin: -7px 0 2px;
+}
+
+.clearfix:before, .clearfix:after, .container:before, .container:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after, .container:after {
+    clear: both;
+}
+
+.clearfix, .container {
+    *zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr, .typo table,
+.typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table {
+  margin-bottom: 1em;
+}
+/*.typo {*/
+/*p, pre, ul, ol, dl, form, hr, table {*/
+    /*margin-bottom: 1em;*/
+/*}*/
+    /*}*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    font-family: Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    color: #333;
+}
+
+
+.typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6,
+.typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6 {
+    margin-bottom: 0.4em;
+    line-height: 1.5;
+}
+
+
+.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6 {
+    margin-bottom: 0.4em;
+    line-height: 1.5;
+    }
+
+.typo h1, .typo-h1 {
+    font-size: 1.8em;
+}
+
+.typo h2, .typo-h2 {
+    font-size: 1.6em;
+}
+
+.typo h3, .typo-h3 {
+    font-size: 1.4em;
+}
+
+.typo h4, .typo-h4 {
+    font-size: 1.2em;
+}
+
+.typo h5, .typo h6, .typo-h5, .typo-h6 {
+    font-size: 1em;
+}
+
+
+.typo ul, .typo-ul {
+    margin-left: 1.3em;
+    list-style: disc;
+}
+
+.typo ol, .typo-ol {
+    list-style: decimal;
+    margin-left: 1.9em;
+}
+
+.typo li ul, .typo li ol, .typo-ul ul, .typo-ul ol, .typo-ol ul, .typo-ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2em;
+}
+
+.typo li ul, .typo-ul ul, .typo-ol ul {
+    list-style: circle;
+}
+
+
+.typo table th, .typo table td, .typo-table th, .typo-table td, .typo table caption {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.typo table th, .typo-table th {
+    background: #fbfbfb;
+}
+
+.typo table thead th, .typo-table thead th {
+    background: #f1f1f1;
+}
+
+.typo table caption {
+    border-bottom: none;
+    font-weight: 800;
+}
+
+.typo dt, .typo-dl dt {
+    font-weight: 800;
+}
+
+.typo dd, .typo-dl dd {
+    color: #999;
+}
+
+
+.typo-input, .typo-textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.typo-em, .typo em, legend {
+    font-weight: 700;
+}
+
+
+::-moz-selection {
+    background: #08c;
+    color: #fff;
+}
+
+::selection {
+    background: #08c;
+    color: #fff;
+}
+
+
+::-moz-placeholder {
+    color: #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #aaa;
+}
+
+::-ms-input-placeholder {
+    color: #aaa;
+}
+
+:focus {
+    outline: none;
+}
+
+
+.textwrap, .textwrap td, .textwrap th {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.textwrap-table {
+    table-layout: fixed;
+}
+
+
+.sep {
+    margin-bottom: 1em;
+}
+
+.sep-big {
+    margin-bottom: 2em;
+}
+
+.required, .highlight {
+    color: #1975c3 !important;
+}
+
+
+.text-success {
+    color: #60b044;
+}
+
+.text-danger {
+    color: #ed5567;
+}
+
+.text-info {
+    color: #4b89dc;
+}
