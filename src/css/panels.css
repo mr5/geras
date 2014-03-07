@@ -1,0 +1,83 @@
+.panel {
+    border: 1px solid #e6e9ed;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: white;
+    margin-bottom: 1.5em;
+}
+
+.panel-heading {
+    /*line-height: 2.5em;*/
+    border-bottom: 1px solid #e6e9ed;
+    margin: 0;
+    padding-left: 20px;
+
+    font: 400 18px/50px arial, "Hiragino Sans GB", "Microsoft YaHei", SimHei, sans-serif;
+    /*font:400 1.6em/2.5em;*/
+    color: #434a54;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.panel-no-padding {
+    padding: 0;
+}
+
+.panel-default .panel-heading {
+    color: #333333;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+}
+
+.panel-primary {
+    border-color: #428bca;
+}
+
+.panel-primary .panel-heading {
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.panel-success {
+    border-color: #d6e9c6;
+}
+
+.panel-success .panel-heading {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.panel-warning {
+    border-color: #faebcc;
+}
+
+.panel-warning .panel-heading {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.panel-danger {
+    border-color: #ebccd1;
+}
+
+.panel-danger .panel-heading {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.panel-info {
+    border-color: #bce8f1;
+}
+
+.panel-info .panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}

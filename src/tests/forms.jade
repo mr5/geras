@@ -1,0 +1,76 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(http-equiv="content-type", content="text/html; charset=utf-8")
+        title 表单测试 - Demeter CSS UI Set
+        link(rel="stylesheet", href="../css/base.css")
+        link(rel="stylesheet", href="../css/tests.css")
+        link(rel="stylesheet", href="../css/buttons-core.css")
+        link(rel="stylesheet", href="../css/buttons.css")
+        link(rel="stylesheet", href="../css/menus.css")
+        link(rel="stylesheet", href="../css/menus-r.css")
+        link(rel="stylesheet", href="../css/prettify.css")
+        link(rel="stylesheet", href="../css/forms.css")
+        link(rel="stylesheet", href="../css/forms-r.css")
+        script(src="http://g.tbcdn.cn/kissy/k/1.4.2/seed.js")
+        script(src="../js/demeter-demo.js")
+    body
+        include ../menu
+        .container.wrapper
+            h1 表单测试
+            h2 横排表单
+            form
+                fieldset
+                    legend 横排表单
+                    .form-control
+                        label.label 账号
+                        input.input.input-1-5(type="text", placeholder="请输入账号")
+                        label.label 密码
+                        input.input.input-1-5(type="password", placeholder="请输入密码")
+                        input#h-remember-me(type="checkbox")
+                        label.label(for="h-remember-me") 记住我
+                        button.input.btn.btn-danger 立即登录
+
+                fieldset.label-block
+                    legend 横排表单
+                    .form-control
+                        label.label 账号
+                        input.input.input-1-5(type="text", placeholder="请输入账号")
+                    .form-control
+                        label.label 密码
+                        input.input.input-1-5(type="password", placeholder="请输入密码")
+                    .form-control
+                        label.label 密码确认
+                        input.input.input-1-5(type="password", placeholder="请再次输入密码")
+
+                    .form-action
+                        button.btn.btn-danger 立即登录
+                fieldset.label-xsmall
+                    legend 对齐表单
+                    .form-control
+                        label.label 账号
+                        input.input.input-1-5(type="text", placeholder="请输入账号")
+                    .form-control
+                        label.label 密码
+                        input.input.input-1-5(type="password", placeholder="请输入密码")
+                    .form-control
+                        label.label 密码确认
+                        input.input.input-1-5(type="password", placeholder="请再次输入密码")
+                    .form-action
+                        button.btn.btn-primary(type="submit") 注册
+                        button.btn.btn-danger(type="reset") 重置
+                fieldset.label-xsmall.label-left
+                    legend 左对齐表单
+                    .form-control
+                        label.label 账号
+                        input.input.input-1-5(type="text", placeholder="请输入账号")
+                    .form-control
+                        label.label 密码
+                        input.input.input-1-5(type="password", placeholder="请输入密码")
+                    .form-control
+                        label.label 密码确认
+                        input.input.input-1-5(type="password", placeholder="请再次输入密码")
+                    .form-action
+                        button.btn.btn-primary(type="submit") 注册
+                        button.btn.btn-danger(type="reset") 重置
