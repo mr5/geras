@@ -1,0 +1,54 @@
+doctype html
+html
+    head
+        title 表格演示 - Demeter CSS UI Set
+        include ../head
+    body#page-buttons
+        include ../menu
+        .panel.wrapper.container
+            .panel-heading: h3 表格演示
+            mixin table(classes_extend)
+                table.table(class=classes_extend)
+                    thead
+                        tr
+                            th #
+                            th 品牌
+                            th 型号
+                            th 年份
+                    tbody
+                        tr
+                            td 1
+                            td 宝马
+                            td 328i M
+                            td 2013
+                        tr
+                            td 2
+                            td 奔驰
+                            td C260
+                            td 2011
+                        tr
+                            td 3
+                            td 奥迪
+                            td A4L
+                            td 2009
+                        tr
+                            td 4
+                            td 凯迪拉克
+                            td ATS
+                            td 2013
+                        tr
+                            td 5
+                            td 沃尔沃
+                            td S60L
+                            td 2014
+            .panel-body
+                h4 默认表格
+                +table()
+                h4 带边框的表格
+                +table('table-bordered')
+                h4 仅有竖边框的表格
+                +table('table-vertical')
+                h4 条纹背景色的表格(IE8+)
+                +table('table-striped')
+
+

@@ -5,17 +5,22 @@
     border-radius: 3px;
     background: white;
     margin-bottom: 1.5em;
+
 }
 
 .panel-heading {
-    /*line-height: 2.5em;*/
-    border-bottom: 1px solid #e6e9ed;
-    margin: 0;
-    padding-left: 20px;
+  /*line-height: 2.5em;*/
+  border-bottom: 1px solid #e6e9ed;
+  margin: 0;
+  padding-left: 20px;
 
-    font: 400 18px/50px arial, "Hiragino Sans GB", "Microsoft YaHei", SimHei, sans-serif;
-    /*font:400 1.6em/2.5em;*/
-    color: #434a54;
+  font: 400 18px/50px arial, "Hiragino Sans GB", "Microsoft YaHei", SimHei, sans-serif;
+  /*font:400 1.6em/2.5em;*/
+  color: #434a54;
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1em;
+    margin-left:0;
+  }
 }
 
 .panel-body {

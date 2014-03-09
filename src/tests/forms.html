@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>表单测试 - Demeter CSS UI Set</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/typo.css">
+    <link rel="stylesheet" href="../css/tests.css">
+    <link rel="stylesheet" href="../css/buttons-core.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/menus.css">
+    <link rel="stylesheet" href="../css/menus-r.css">
+    <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="../css/forms-r.css">
+    <link rel="stylesheet" href="../css/prettify.css">
+    <link rel="stylesheet" href="../css/panels.css">
+    <link rel="stylesheet" href="../css/panels-r.css">
+    <link rel="stylesheet" href="../css/tables.css">
+    <link rel="stylesheet" href="../../build/grids-min.css">
+    <script src="../js/prettify.min.js"></script>
+    <script src="http://g.tbcdn.cn/kissy/k/1.4.2/seed.js"></script>
+    <script src="../js/demeter-demo.js"></script>
+  </head>
+  <body>
+    <div id="tests_nav">
+      <ul class="menu menu-horizontal menu-inverse wrapper">
+        <li class="menu-item active"><a>DEMETER</a></li>
+        <li id="J_nav_typo" class="menu-item"><a href="typo.html">排版</a></li>
+        <li id="J_nav_buttons" class="menu-item"><a href="buttons.html">按钮</a></li>
+        <li id="J_nav_forms" class="menu-item"><a href="forms.html">表单</a></li>
+        <li id="J_nav_grids" class="menu-item"><a href="grids.html">栅格</a></li>
+        <li id="J_nav_menus" class="menu-item"><a href="menus.html">菜单</a></li>
+        <li id="J_nav_tables" class="menu-item"><a href="tables.html">表格</a></li>
+        <li id="J_nav_components" class="menu-item"><a href="components.html">组件</a></li>
+        <li class="menu-item"><a href="https://github.com/mr5/demeter" target="_blank">GITHUB</a></li>
+      </ul>
+    </div>
+    <div class="panel container wrapper">
+      <div class="panel-heading">
+        <h3>表单测试</h3>
+      </div>
+      <div class="panel-body">
+        <form>
+          <fieldset>
+            <legend>横排表单</legend>
+            <div class="form-control">
+              <label class="label">账号</label>
+              <input type="text" placeholder="请输入账号" class="input input-1-5">
+              <label class="label">密码</label>
+              <input type="password" placeholder="请输入密码" class="input input-1-5">
+              <input id="h-remember-me" type="checkbox">
+              <label for="h-remember-me">记住我</label>
+              <button class="input btn btn-danger">立即登录</button>
+            </div>
+          </fieldset>
+                    <fieldset class="label-block">
+                      <legend>竖排表单</legend>
+                      <div class="form-control">
+                        <label class="label">账号</label>
+                        <input type="text" placeholder="请输入账号" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">密码</label>
+                        <input type="password" placeholder="请输入密码" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">密码确认</label>
+                        <input type="password" placeholder="请再次输入密码" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">你的性别</label>
+                        <input type="radio" name="sex_v1" id="sex_radio_m_v1">
+                        <label for="sex_radio_m_v1">男</label>
+                        <input type="radio" name="sex_v1" id="sex_radio_f_v1">
+                        <label for="sex_radio_f_v1">女</label>
+                      </div>
+                      <div class="form-control">
+                        <label class="label">你的兴趣爱好</label>
+                        <select class="input input-1-3">
+                          <option>足球</option>
+                          <option>电影</option>
+                          <option>玩游戏</option>
+                          <option>旅游</option>
+                        </select>
+                      </div>
+                      <div class="form-control">
+                        <label class="label"></label>
+                        <input type="checkbox" id="agree_v1">
+                        <label for="agree_v1">同意注册协议</label>&nbsp;&nbsp;<a href="#">查看协议</a>
+                      </div>
+                      <div class="form-action">
+                        <button type="submit" class="btn btn-primary">注册</button>
+                        <button type="reset" class="btn btn-danger">重置</button>
+                      </div>
+                    </fieldset>
+                    <fieldset class="label-small">
+                      <legend>竖排对齐表单</legend>
+                      <div class="form-control">
+                        <label class="label">账号</label>
+                        <input type="text" placeholder="请输入账号" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">密码</label>
+                        <input type="password" placeholder="请输入密码" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">密码确认</label>
+                        <input type="password" placeholder="请再次输入密码" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">你的性别</label>
+                        <input type="radio" name="sex_v2" id="sex_radio_m_v2">
+                        <label for="sex_radio_m_v2">男</label>
+                        <input type="radio" name="sex_v2" id="sex_radio_f_v2">
+                        <label for="sex_radio_f_v2">女</label>
+                      </div>
+                      <div class="form-control">
+                        <label class="label">你的兴趣爱好</label>
+                        <select class="input input-1-3">
+                          <option>足球</option>
+                          <option>电影</option>
+                          <option>玩游戏</option>
+                          <option>旅游</option>
+                        </select>
+                      </div>
+                      <div class="form-control">
+                        <label class="label"></label>
+                        <input type="checkbox" id="agree_v2">
+                        <label for="agree_v2">同意注册协议</label>&nbsp;&nbsp;<a href="#">查看协议</a>
+                      </div>
+                      <div class="form-action">
+                        <button type="submit" class="btn btn-primary">注册</button>
+                        <button type="reset" class="btn btn-danger">重置</button>
+                      </div>
+                    </fieldset>
+                    <fieldset class="label-small label-left">
+                      <legend>竖排左对齐表单</legend>
+                      <div class="form-control">
+                        <label class="label">账号</label>
+                        <input type="text" placeholder="请输入账号" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">密码</label>
+                        <input type="password" placeholder="请输入密码" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">密码确认</label>
+                        <input type="password" placeholder="请再次输入密码" class="input input-1-3">
+                      </div>
+                      <div class="form-control">
+                        <label class="label">你的性别</label>
+                        <input type="radio" name="sex_v3" id="sex_radio_m_v3">
+                        <label for="sex_radio_m_v3">男</label>
+                        <input type="radio" name="sex_v3" id="sex_radio_f_v3">
+                        <label for="sex_radio_f_v3">女</label>
+                      </div>
+                      <div class="form-control">
+                        <label class="label">你的兴趣爱好</label>
+                        <select class="input input-1-3">
+                          <option>足球</option>
+                          <option>电影</option>
+                          <option>玩游戏</option>
+                          <option>旅游</option>
+                        </select>
+                      </div>
+                      <div class="form-control">
+                        <label class="label"></label>
+                        <input type="checkbox" id="agree_v3">
+                        <label for="agree_v3">同意注册协议</label>&nbsp;&nbsp;<a href="#">查看协议</a>
+                      </div>
+                      <div class="form-action">
+                        <button type="submit" class="btn btn-primary">注册</button>
+                        <button type="reset" class="btn btn-danger">重置</button>
+                      </div>
+                    </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="panel wrapper">
+      <div class="panel-heading">
+        <h3>响应式表单</h3>
+      </div>
+      <div class="panel-body">
+        <p>在支持媒体查询的浏览器中试试看调整浏览器的宽度。</p>
+      </div>
+    </div>
+  </body>
+</html>

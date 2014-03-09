@@ -1,3 +1,4 @@
+@charset "utf-8";
 // =============================================================================
 // Variables for demeter
 // =============================================================================
@@ -18,27 +19,72 @@ $normalized_font_family: Helvetica Neue, Microsoft Yahei,Hiragino Sans GB,WenQua
 
 $normalize_headings: true !default;
 
-$h1_font_size: 2em !default;
-$h2_font_size: 1.5em !default;
-$h3_font_size: 1.17em !default;
-$h4_font_size: 1em !default;
-$h5_font_size: 0.83em !default;
-$h6_font_size: 0.75em !default;
+$font-size-base: 13px;
 
-$h1_margin: 0.67em 0 !default;
-$h2_margin: 0.83em 0 !default;
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~35px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~29px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~23px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~17px
+$font-size-h5:            ceil(($font-size-base * 1.07)) !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$h1_margin: 0.57em 0 !default;
+$h2_margin: 0.63em 0 !default;
 $h3_margin: 1em 0 !default;
 $h4_margin: 1.33em 0 !default;
 $h5_margin: 1.67em 0 !default;
 $h6_margin: 2.33em 0 !default;
 
+
+
 $background: #f5f7fa !default;
 $color: #656d78 !default;
-$color_h: #4e545c;
-$font_base_size: 13px;
+$line-height-base:        1.428571429 !default; // 20/14
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    inherit !default;
+$headings-font-weight:    400 !default;
+$headings-line-height:    1.1 !default;
+$headings-color: #4e545c !default;
+
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+// Extra small screen / phone
+// Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+// Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+// Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+// Note: Deprecated $screen-lg and $screen-lg-desktop as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
 
 // -----------------------------------------------------------------------------
 // for Normalize.css
 // -----------------------------------------------------------------------------
 
 $brand_primary:'';
+$text-muted:#999 !default;
+$headings-small-color: #999;
+
+

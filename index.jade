@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        title Demeter首页 - CSS UI set
+        meta(charset='utf-8')
+        meta(http-equiv="content-type", content="text/html; charset=utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no")
+        link(rel="stylesheet", href="src/css/base.css")
+        link(rel="stylesheet", href="src/css/typo.css")
+        link(rel="stylesheet", href="src/css/tests.css")
+        link(rel="stylesheet", href="src/css/buttons-core.css")
+        link(rel="stylesheet", href="src/css/buttons.css")
+        link(rel="stylesheet", href="src/css/menus.css")
+        link(rel="stylesheet", href="src/css/menus-r.css")
+        link(rel="stylesheet", href="src/css/forms.css")
+        link(rel="stylesheet", href="src/css/forms-r.css")
+        link(rel="stylesheet", href="src/css/prettify.css")
+        link(rel="stylesheet", href="src/css/panels.css")
+        link(rel="stylesheet", href="src/css/panels-r.css")
+        link(rel="stylesheet", href="src/css/tables.css")
+        link(rel="stylesheet", href="build/grids-min.css")
+        script(src="src/js/prettify.min.js")
+        script(src="http://g.tbcdn.cn/kissy/k/1.4.2/seed.js")
+       // script(src="src/js/demeter-demo.js")
+    body
+        div(style="background:#2d3e50;height:760px;")
+            div.wrapper.text-center(style="padding-top:170px;")
+                h1(style="color:#6FBEF3;font-size:42px;") 为还需要兼容IE6的苦逼们而生的CSS框架
+                h5(style="color:white;") 兼容IE6/7/8，响应式设计，仅15KB。MIT开源协议。BTW, Fuck IE !!!
+                br
+                a.btn.btn-large(href="src/tests/typo.html") 人生苦短，立即开搞
+                br
+                br
+                br
+                img(src="src/img/index-bg.png")
+        div
+            include src/menu
