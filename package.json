@@ -1,8 +1,8 @@
 {
-  "name": "pure",
-  "version": "0.4.3-pre",
+  "name": "demeter",
+  "version": "0.1-alpha",
   "private": true,
-  "repository": "git://github.com/yui/pure.git",
+  "repository": "git://github.com/mr5/demeter.git",
   "scripts": {
     "test": "grunt test"
   },

@@ -1,3 +1,4 @@
+@charset "utf-8";
 .panel {
     border: 1px solid #e6e9ed;
     -webkit-border-radius: 3px;
@@ -6,6 +7,18 @@
     background: white;
     margin-bottom: 1.5em;
 
+    // 无内边距的面板
+    &.panel-compact {
+      .panel-heading, .panel-body {
+        padding: 0;
+      }
+    }
+    &.panel-margin-left {
+      margin-left:1em;
+    }
+    &.panel-margin-right {
+      margin-right:1em;
+    }
 }
 
 .panel-heading {

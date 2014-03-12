@@ -1,6 +1,6 @@
 /*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
 
-.pure-g-r {
+.dmt-g-r {
     letter-spacing: -0.31em;
     *letter-spacing: normal;
     *word-spacing: -0.43em;
@@ -43,7 +43,7 @@
    and is not required in markup.
 */
 .opera-only :-o-prefocus,
-.pure-g-r {
+.dmt-g-r {
     word-spacing: -0.43em;
 }
 
@@ -51,52 +51,53 @@
 Resets the font family back to the OS/browser's default sans-serif font,
 this the same font stack that Normalize.css sets for the `body`.
 */
-.pure-g-r [class *= "pure-u"] {
+.dmt-g-r [class *= "dmt-u"] {
     font-family: sans-serif;
 }
 
-.pure-g-r img {
+.dmt-g-r img {
     max-width: 100%;
     height: auto;
 }
 
 @media (min-width: 980px) {
-    .pure-visible-phone {
+    .dmt-visible-phone {
         display: none;
     }
-    .pure-visible-tablet {
+    .dmt-visible-tablet {
         display: none;
     }
-    .pure-hidden-desktop {
+    .dmt-hidden-desktop {
         display: none;
     }
 }
 
 @media (max-width: 480px) {
-    .pure-g-r > .pure-u,
-    .pure-g-r > [class *= "pure-u-"] {
+    .dmt-g-r > .dmt-u,
+    .dmt-g-r > [class *= "dmt-u-"] {
         width: 100%;
+        margin-bottom: 2em;
     }
 }
 
 @media (max-width: 767px) {
-    .pure-g-r > .pure-u,
-    .pure-g-r > [class *= "pure-u-"] {
+    .dmt-g-r > .dmt-u,
+    .dmt-g-r > [class *= "dmt-u-"] {
         width: 100%;
     }
-    .pure-hidden-phone {
+    .dmt-hidden-phone {
         display: none;
     }
-    .pure-visible-desktop {
+    .dmt-visible-desktop {
         display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-    .pure-hidden-tablet {
+    .dmt-hidden-tablet {
         display: none;
     }
-    .pure-visible-desktop {
+    .dmt-visible-desktop {
         display: none;
     }
 }

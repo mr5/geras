@@ -1,6 +1,9 @@
 @charset "utf-8";
 @import "normalize";
 
+a {
+  color: #1975c3;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -33,4 +36,7 @@
 }
 .pull-right {
   float:right;
+}
+img {
+  max-width: 100%;
 }

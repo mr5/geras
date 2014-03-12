@@ -5,6 +5,12 @@
   border-radius: 3px;
   background: white;
   margin-bottom: 1.5em; }
+  .panel.panel-compact .panel-heading, .panel.panel-compact .panel-body {
+    padding: 0; }
+  .panel.panel-margin-left {
+    margin-left: 1em; }
+  .panel.panel-margin-right {
+    margin-right: 1em; }
 
 .panel-heading {
   /*line-height: 2.5em;*/

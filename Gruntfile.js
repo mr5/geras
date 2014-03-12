@@ -12,7 +12,7 @@ grunt.initConfig({
     bower_json: {
         release: {
             values: {
-                main: 'pure.css'
+                main: 'demeter.css'
             },
 
             dest: 'build/'
@@ -31,7 +31,7 @@ grunt.initConfig({
 
     copy: {
         build: {
-            src    : 'src/**/css/*.css',
+            src    : 'src/css/*.css',
             dest   : 'build/',
             expand : true,
             flatten: true
@@ -80,14 +80,27 @@ grunt.initConfig({
                 {'build/menus-nr.css': [
                     'build/menus-core.css',
                     'build/menus.css',
-                    'build/menus-paginator.css'
+//                    'build/menus-paginator.css'
+                ]},
+                {'build/grids-nr.css': [
+                    'build/grids-core.css',
+                ]},
+                {'build/grids.css': [
+                    'build/grids-nr.css',
+                    'build/grids-r.css'
                 ]},
 
                 {'build/menus.css': [
                     'build/menus-nr.css',
                     'build/menus-r.css'
                 ]},
-
+                {'build/panels-nr.css': [
+                    'build/panels.css',
+                ]},
+                {'build/panels.css': [
+                    'build/panels-nr.css',
+                    'build/panels-r.css'
+                ]},
                 // Rollups
 
                 {'build/<%= pkg.name %>.css': [
@@ -96,7 +109,11 @@ grunt.initConfig({
                     'build/buttons.css',
                     'build/forms.css',
                     'build/menus.css',
-                    'build/tables.css'
+                    'build/tables.css',
+                    'build/panels.css',
+                    'build/typo.css'
+
+
                 ]},
 
                 {'build/<%= pkg.name %>-nr.css': [
@@ -105,7 +122,9 @@ grunt.initConfig({
                     'build/buttons.css',
                     'build/forms-nr.css',
                     'build/menus-nr.css',
-                    'build/tables.css'
+                    'build/tables.css',
+                    'build/panels-nr.css',
+                    'build/typo.css'
                 ]}
             ]
         }
@@ -113,18 +132,18 @@ grunt.initConfig({
 
     // -- CSSLint Config -------------------------------------------------------
 
-    csslint: {
-        options: {
-            csslintrc: '.csslintrc'
-        },
-
-        base   : ['src/base/css/*.css'],
-        buttons: ['src/buttons/css/*.css'],
-        forms  : ['src/forms/css/*.css'],
-        grids  : ['src/grids/css/*.css'],
-        menus  : ['src/menus/css/*.css'],
-        tables : ['src/tables/css/*.css']
-    },
+//    csslint: {
+//        options: {
+//            csslintrc: '.csslintrc'
+//        },
+//
+//        base   : ['src/base.css'],
+//        buttons: ['src/buttons.css'],
+//        forms  : ['src/forms/css/*.css'],
+//        grids  : ['src/grids/css/*.css'],
+//        menus  : ['src/menus/css/*.css'],
+//        tables : ['src/tables/css/*.css']
+//    },
 
     // -- CSSMin Config --------------------------------------------------------
 
@@ -177,10 +196,9 @@ grunt.initConfig({
             options: {
                 banner: [
                     '/*!',
-                    'Pure v<%= pkg.version %>',
-                    'Copyright 2014 Yahoo! Inc. All rights reserved.',
-                    'Licensed under the BSD License.',
-                    'https://github.com/yui/pure/blob/master/LICENSE.md',
+                    '<%= pkg.name %> v<%= pkg.version %> | MIT License | http://demeter.mr-5.cn ',
+                    'GitHub: https://github.com/mr5/demeter',
+                    'https://github.com/mr5/demeter/blob/master/LICENSE.md',
                     '*/\n'
                 ].join('\n')
             },
@@ -192,15 +210,15 @@ grunt.initConfig({
 
     // -- Pure Grids Units Config ----------------------------------------------
 
-    pure_grids: {
-        default_units: {
-            dest: 'build/grids-units.css',
-
-            options: {
-                units: [5, 24]
-            }
-        }
-    },
+//    pure_grids: {
+//        default_units: {
+//            dest: 'build/grids-units.css',
+//
+//            options: {
+//                units: [5, 24]
+//            }
+//        }
+//    },
 
     // -- CSS Selectors Config -------------------------------------------------
 
@@ -240,18 +258,20 @@ grunt.loadNpmTasks('grunt-contrib-cssmin');
 grunt.loadNpmTasks('grunt-contrib-compress');
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-css-selectors');
-grunt.loadNpmTasks('grunt-pure-grids');
+//grunt.loadNpmTasks('grunt-pure-grids');
 
 // Local tasks.
 grunt.loadTasks('tasks/');
 
-grunt.registerTask('default', ['import', 'test', 'build']);
-grunt.registerTask('import', ['bower_install']);
-grunt.registerTask('test', ['csslint']);
+//grunt.registerTask('default', ['import', 'test', 'build']);
+    grunt.registerTask('default', ['import', 'build']);
+
+    grunt.registerTask('import', ['bower_install']);
+//grunt.registerTask('test', ['csslint']);
 grunt.registerTask('build', [
     'clean:build',
     'copy:build',
-    'pure_grids',
+//    'pure_grids',
     'concat:build',
     'clean:build_res',
     'css_selectors:base',

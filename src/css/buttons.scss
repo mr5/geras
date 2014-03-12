@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import "../mixins";
+@import 'buttons-core';
+
+
+/* 不同颜色的按钮 - button with different colors */
+.btn-primary,
+.btn-selected{
+  background-color: #1975c3;
+  color: #fff;
+}
+.btn-danger {
+  background-color: #ed5567;
+  color: #fff;
+}
+
+.btn-success {
+  background: #5cb85c;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ff6f3d;
+  border: 0;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.btn-link {
+  background: none;
+  border: 0;
+}
+
+.btn-purple {
+  background: #967adc;
+  color: white; }
+
+.btn-dake {
+  background: #656d78;
+  color: white;
+}
+
+.btn-dakeLight {
+  background: #ccd0d8;
+  color: #656d78;
+}
+
+
+// 不同尺寸的按钮 -
+.btn-small {
+  height: 34px;
+  line-height: 34px;
+}
+.btn-xsmall {
+  height: 26px;
+  line-height: 26px;
+}
+.btn-large {
+  height: 46px;
+  line-height: 46px;
+  font-size:14px;
+}
+
+.btn-xlarge {
+  height: 52px;
+  line-height: 52px;
+  font-size:16px;
+}
+
+/* 块级按钮 - block level button */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  margin-top: 2px;
+}
+
+

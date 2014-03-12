@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import "../variables";
+@import "../mixins";
 //! 本文件中的样式仅用于演示
 
 .container {
@@ -28,25 +30,28 @@
     }
   }
   &.menu-bg-blue {
-    background: #1975c3;
+    background: #1975c3!important;
     border-radius: 4px;
+
     .menu-item a{
-      color:white;
       border-radius: 3px;
+      color: white!important;
     }
     .menu-item a:hover, .active a {
       background: rgb(71,144,207);
-      color: white;
+      color: white!important;
 
     }
   }
   &.menu-bg-red {
-    background: #ed5567;
+    background: #ed5567!important;
     border-radius: 4px;
 
     .menu-item a{
-      color:white;
-      line-height: 1.6;
+      color:white!important;
+      line-height: 36px;
+      height: 36px;
+      font-size:13px;
 
     }
     .menu-item a:hover, .active a {
@@ -57,19 +62,32 @@
   }
   &.menu-blue {
     border: none;
+
     a {
       border-radius: 3px;
-//      height: ;
-//      line-height: 20px;
-//      font-size:0.5em;
+      color: white;
+
     }
     .menu-item a:hover {
       background: #eee;
+      color: #666!important;
     }
     .active a {
       background: #428bca;
+      color: white!important;
       /*background: none;*/
-      color: white;
     }
   }
+}
+#page-grids {
+  .dmt-g-r {
+    margin-bottom: 1em;
+  }
+}
+.tests-grid-content {
+  background: #eee;
+  line-height: 36px;
+  text-align: center;
+  margin: 5px;
+  @include border-radius(3px);
 }

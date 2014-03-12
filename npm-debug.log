@@ -1,66 +1,27 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/homebrew/Cellar/node/0.10.21/bin/node',
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   'greceful-fs' ]
-2 info using npm@1.3.11
-3 info using node@v0.10.21
-4 verbose readDependencies using package.json deps
-5 verbose cache add [ 'greceful-fs', null ]
-6 verbose cache add name=undefined spec="greceful-fs" args=["greceful-fs",null]
-7 verbose parsed url { protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: 'greceful-fs',
-7 verbose parsed url   path: 'greceful-fs',
-7 verbose parsed url   href: 'greceful-fs' }
-8 silly lockFile c143f7c9-greceful-fs greceful-fs
-9 verbose lock greceful-fs /Users/Mr5/.npm/c143f7c9-greceful-fs.lock
-10 silly lockFile c143f7c9-greceful-fs greceful-fs
-11 silly lockFile c143f7c9-greceful-fs greceful-fs
-12 verbose addNamed [ 'greceful-fs', '' ]
-13 verbose addNamed [ null, '*' ]
-14 silly lockFile 2f43ba35-greceful-fs greceful-fs@
-15 verbose lock greceful-fs@ /Users/Mr5/.npm/2f43ba35-greceful-fs.lock
-16 silly addNameRange { name: 'greceful-fs', range: '*', hasData: false }
-17 verbose url raw greceful-fs
-18 verbose url resolving [ 'https://registry.npmjs.org/', './greceful-fs' ]
-19 verbose url resolved https://registry.npmjs.org/greceful-fs
-20 info trying registry request attempt 1 at 11:54:17
-21 http GET https://registry.npmjs.org/greceful-fs
-22 http 404 https://registry.npmjs.org/greceful-fs
-23 silly registry.get cb [ 404,
-23 silly registry.get   { date: 'Wed, 05 Mar 2014 03:54:20 GMT',
-23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
-23 silly registry.get     'content-type': 'application/json',
-23 silly registry.get     via: '1.1 varnish',
-23 silly registry.get     'cache-control': 'max-age=0',
-23 silly registry.get     'content-length': '52',
-23 silly registry.get     'accept-ranges': 'bytes',
-23 silly registry.get     age: '0',
-23 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv61-SJC3',
-23 silly registry.get     'x-cache': 'MISS, MISS',
-23 silly registry.get     'x-cache-hits': '0, 0',
-23 silly registry.get     'x-timer': 'S1393991660.167428255,VS0,VS-562,VE-544,VE89',
-23 silly registry.get     'keep-alive': 'timeout=10, max=50',
-23 silly registry.get     connection: 'Keep-Alive' } ]
-24 silly lockFile 2f43ba35-greceful-fs greceful-fs@
-25 silly lockFile 2f43ba35-greceful-fs greceful-fs@
-26 error 404 'greceful-fs' is not in the npm registry.
-26 error 404 You should bug the author to publish it
-26 error 404
-26 error 404 Note that you can also install from a
-26 error 404 tarball, folder, or http url, or git url.
-27 error System Darwin 13.0.0
-28 error command "/usr/local/homebrew/Cellar/node/0.10.21/bin/node" "/usr/local/bin/npm" "install" "greceful-fs"
-29 error cwd /Volumes/DATA/wamp/www/pure
-30 error node -v v0.10.21
-31 error npm -v 1.3.11
-32 error code E404
-33 verbose exit [ 1, true ]
+1 verbose cli   'graceful-fs' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 error Error: Invalid version: "0.1-alpha"
+4 error     at Object.module.exports.fixVersionField (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:185:13)
+4 error     at /usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:38
+4 error     at Array.forEach (native)
+4 error     at normalize (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:28:15)
+4 error     at final (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:328:33)
+4 error     at then (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+4 error     at /usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:317:40
+4 error     at fs.js:266:14
+4 error     at /usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:105:5
+4 error     at Object.oncomplete (fs.js:107:15)
+5 error If you need help, you may report this *entire* log,
+5 error including the npm and node versions, at:
+5 error     <http://github.com/npm/npm/issues>
+6 error System Darwin 13.1.0
+7 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "install" "graceful-fs"
+8 error cwd /Users/mr5/DATA/web/www/demeter
+9 error node -v v0.10.26
+10 error npm -v 1.4.3
+11 verbose exit [ 1, true ]

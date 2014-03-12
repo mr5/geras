@@ -18,30 +18,46 @@
 .menu.menu-red .menu-item a:hover, .menu.menu-red .active a {
   color: #dd4250; }
 .menu.menu-bg-blue {
-  background: #1975c3;
+  background: #1975c3 !important;
   border-radius: 4px; }
   .menu.menu-bg-blue .menu-item a {
-    color: white;
-    border-radius: 3px; }
+    border-radius: 3px;
+    color: white !important; }
   .menu.menu-bg-blue .menu-item a:hover, .menu.menu-bg-blue .active a {
     background: #4790cf;
-    color: white; }
+    color: white !important; }
 .menu.menu-bg-red {
-  background: #ed5567;
+  background: #ed5567 !important;
   border-radius: 4px; }
   .menu.menu-bg-red .menu-item a {
-    color: white;
-    line-height: 1.6; }
+    color: white !important;
+    line-height: 36px;
+    height: 36px;
+    font-size: 13px; }
   .menu.menu-bg-red .menu-item a:hover, .menu.menu-bg-red .active a {
     background: #f17a88;
     color: white; }
 .menu.menu-blue {
   border: none; }
   .menu.menu-blue a {
-    border-radius: 3px; }
+    border-radius: 3px;
+    color: white; }
   .menu.menu-blue .menu-item a:hover {
-    background: #eee; }
+    background: #eee;
+    color: #666666 !important; }
   .menu.menu-blue .active a {
     background: #428bca;
-    /*background: none;*/
-    color: white; }
+    color: white !important;
+    /*background: none;*/ }
+
+#page-grids .dmt-g-r {
+  margin-bottom: 1em; }
+
+.tests-grid-content {
+  background: #eee;
+  line-height: 36px;
+  text-align: center;
+  margin: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }

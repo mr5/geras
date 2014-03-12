@@ -10,28 +10,31 @@ html
         link(rel="stylesheet", href="src/css/tests.css")
         link(rel="stylesheet", href="src/css/buttons-core.css")
         link(rel="stylesheet", href="src/css/buttons.css")
-        link(rel="stylesheet", href="src/css/menus.css")
-        link(rel="stylesheet", href="src/css/menus-r.css")
-        link(rel="stylesheet", href="src/css/forms.css")
-        link(rel="stylesheet", href="src/css/forms-r.css")
-        link(rel="stylesheet", href="src/css/prettify.css")
-        link(rel="stylesheet", href="src/css/panels.css")
-        link(rel="stylesheet", href="src/css/panels-r.css")
-        link(rel="stylesheet", href="src/css/tables.css")
-        link(rel="stylesheet", href="build/grids-min.css")
+        //link(rel="stylesheet", href="src/css/menus.css")
+        //link(rel="stylesheet", href="src/css/menus-r.css")
+        //link(rel="stylesheet", href="src/css/forms.css")
+        //link(rel="stylesheet", href="src/css/forms-r.css")
+        //link(rel="stylesheet", href="src/css/prettify.css")
+        //link(rel="stylesheet", href="src/css/panels.css")
+        //link(rel="stylesheet", href="src/css/panels-r.css")
+        //link(rel="stylesheet", href="src/css/tables.css")
+        //link(rel="stylesheet", href="build/grids-min.css")
+        link(rel="stylesheet", href="src/css/animations.css")
+
         script(src="src/js/prettify.min.js")
         script(src="http://g.tbcdn.cn/kissy/k/1.4.2/seed.js")
        // script(src="src/js/demeter-demo.js")
     body
         div(style="background:#2d3e50;height:760px;")
             div.wrapper.text-center(style="padding-top:170px;")
-                h1(style="color:#6FBEF3;font-size:42px;") 为还需要兼容IE6的苦逼们而生的CSS框架
-                h5(style="color:white;") 兼容IE6/7/8，响应式设计，仅15KB。MIT开源协议。BTW, Fuck IE !!!
+                div.animated.bounceInUp
+                    h1(style="color:#6FBEF3;font-size:42px;") 为还需要兼容IE6的苦逼们而生的CSS框架
+                    h5(style="color:white;") 兼容IE6/7/8，响应式设计，仅15KB。MIT开源协议。BTW, Fuck IE !!!
                 br
-                a.btn.btn-large(href="src/tests/typo.html") 人生苦短，立即开搞
+                a.btn.btn-large.animated.bounceInLeft(href="src/tests/typo.html") 人生苦短，立即开搞
                 br
                 br
                 br
-                img(src="src/img/index-bg.png")
+                img.animated.fadeInRight(src="src/img/index-bg.png")
         div
             include src/menu

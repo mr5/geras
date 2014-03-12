@@ -1,7 +1,3 @@
-@charset "utf-8";
-// NOTE: This version of Normalize.css has been modified by mr5.simple@gmail.com,
-// it maybe just only work well with Demeter.
-
 // =============================================================================
 // Normalize.scss based on Nicolas Gallagher and Jonathan Neal's
 // normalize.css v2.1.3 | MIT License | git.io/normalize
@@ -12,16 +8,45 @@
 // =============================================================================
 
 
-@import "../variables";
+// Set to true if you want to add support for IE6 and IE7
+// Notice: setting to true might render some elements
+// slightly differently than when set to false
+$legacy_support_for_ie: true !default; // Used also in Compass
+
+
+// Set the default font family here so you don't have to override it later
+$normalized_font_family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif !default;
+
+$normalize_headings: true !default;
+
+//$h1_font_size: 2em !default;
+//$h2_font_size: 1.5em !default;
+//$h3_font_size: 1.17em !default;
+//$h4_font_size: 1em !default;
+//$h5_font_size: 0.83em !default;
+//$h6_font_size: 0.75em !default;
+
+$h1_font_size: 2.4em !default;
+$h2_font_size: 2em !default;
+$h3_font_size: 1.6em !default;
+$h4_font_size: 1.2em !default;
+$h5_font_size: 1em !default;
+$h6_font_size: 0.8em !default;
+
+$h1_margin: 0.67em 0 !default;
+$h2_margin: 0.83em 0 !default;
+$h3_margin: 1em 0 !default;
+$h4_margin: 1.33em 0 !default;
+$h5_margin: 1.67em 0 !default;
+$h6_margin: 2.33em 0 !default;
+
+$background: #fff !default;
+$color: #656d78 !default;
 
 // =============================================================================
 // HTML5 display definitions
 // =============================================================================
 
-* {
-  margin: 0;
-  padding: 0;
-}
 // Corrects block display not defined in IE6/7/8/9 & FF3
 
 article,
@@ -77,10 +102,10 @@ audio:not([controls]) {
 //    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
 
 html {
-  font-size: $font-size-base;
   @if $legacy_support_for_ie {
-//    font-size: 100%; // 1
+    font-size: 100%; // 1
   }
+  font-size:12px;
   background: $background;
   color: $color;
   -webkit-text-size-adjust: 100%; // 2
@@ -116,7 +141,7 @@ a {
   // 1
 
   background: transparent;
-  text-decoration: none;
+
   // 2
 
   &:focus {
@@ -137,39 +162,36 @@ a {
 
 // Addresses font sizes and margins set differently in IE6/7
 // Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
-h1, h2, h3, h4, h5, h6 {
-  color: $headings-color;
-  font-weight: $headings-font-weight;
-}
+
 @if $normalize_headings == true {
   h1 {
-    font-size: $font-size-h1;
-//    margin: $h1_margin;
+    font-size: $h1_font_size;
+    margin: $h1_margin;
   }
 
   h2 {
-    font-size: $font-size-h2;
-//    margin: $h2_margin;
+    font-size: $h2_font_size;
+    margin: $h2_margin;
   }
 
   h3 {
-    font-size: $font-size-h3;
-//    margin: $h3_margin;
+    font-size: $h3_font_size;
+    margin: $h3_margin;
   }
 
   h4 {
-    font-size: $font-size-h4;
-//    margin: $h4_margin;
+    font-size: $h4_font_size;
+    margin: $h4_margin;
   }
 
   h5 {
-    font-size: $font-size-h5;
-//    margin: $h5_margin;
+    font-size: $h5_font_size;
+    margin: $h5_margin;
   }
 
   h6 {
-    font-size: $font-size-h6;
-//    margin: $h6_margin;
+    font-size: $h6_font_size;
+    margin: $h6_margin;
   }
 }
 
@@ -287,13 +309,13 @@ sub {
 // Lists
 // =============================================================================
 
-// remove list-style
+// Addresses margins set differently in IE6/7
 @if $legacy_support_for_ie {
   dl,
   menu,
   ol,
   ul {
-    list-style: none;
+    margin: 1em 0;
   }
 }
 
@@ -308,7 +330,7 @@ sub {
   menu,
   ol,
   ul {
-//    padding: 0 0 0 40px;
+    padding: 0 0 0 40px;
   }
 }
 
@@ -368,8 +390,7 @@ figure {
 // Define consistent border, margin, and padding
 
 fieldset {
-//  border: 1px solid #c0c0c0;
-  border:none;
+border:none;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -397,7 +418,7 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit; // 1
+  font-family: $normalized_font_family; // 1
   font-size: 100%; // 2
   margin: 0; // 3
   vertical-align: baseline; // 4

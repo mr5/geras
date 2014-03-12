@@ -1,146 +1,120 @@
-@charset "utf-8";
-
+@charset "UTF-8";
 .btn {
-    font-family: inherit;
-    font-size: 100%;
-    *overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
-    padding: 0.8em 1.5em;
-    color: inherit;
-    border: 1px solid #999;
-    background-color: #e6e6e6;
-    text-decoration: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-right: 5px;
-    vertical-align: baseline;
-    display: inline-block;
-    *display: inline; /*IE 6/7*/
-    zoom: 1;
-    line-height: normal;
-    white-space: nowrap;
-    text-align: center;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-/* icon of button */
-.btn i {
-    position: relative;
-    top: 1px;
-    margin-right: 5px;
-}
-a.btn {
-    *padding-top: 0.98em;
-    *padding-bottom:0.98em;
-    *font-size:96%;
-    /**padding: 0.92em 1.3em 0.90em 1.3em;*/
-    *vertical-align: baseline;
-    color:#656d78;
-}
-
-.btn-hover,
-.btn:hover,
-.btn:focus {
-
+  display: inline-block;
+  *display: inline;
+  border: none;
+  /* for IE 6/7 修复a标签的高度问题 - fixed high of tag 'a' */
+  *zoom: 1;
+  /* for IE 6/7 IE对Button的左右内边距设置的过大 */
+  *overflow: visible;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 1em;
+  padding: 0 1.5em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: #656d78;
+  background-color: #e6e6e6; }
+  .btn.btn-hover, .btn:hover, .btn:focus {
     background-image: none;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
     filter: alpha(opacity=80);
-    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);*/
-
-    -khtml-opacity: 0.80;
-    -moz-opacity: 0.80;
-    opacity: 0.80;
-    /*cursor: not-allowed;*/
     box-shadow: none;
-}
-.btn:focus {
-    outline: 0;
-}
-.btn-active,
-.btn:active {
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
-}
+    outline: 0; }
+  .btn i {
+    position: relative;
+    *top: 1px;
+    margin-right: 5px; }
 
+/* 按钮被禁用，不支持IE6 - disabled button, incompatible IE6*/
 .btn[disabled],
 .btn-disabled,
 .btn-disabled:hover,
 .btn-disabled:focus,
 .btn-disabled:active {
-    border: none;
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-    filter: alpha(opacity=40);
-    -khtml-opacity: 0.40;
-    -moz-opacity: 0.40;
-    opacity: 0.40;
-    cursor: not-allowed;
-    box-shadow: none;
-}
+  border: none;
+  background-image: none;
+  -khtml-opacity: 0.4;
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  filter: alpha(opacity=40);
+  cursor: not-allowed;
+  box-shadow: none; }
 
-a.btn, input.btn, button.btn {
-    border: none;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-/* Firefox: Get rid of the inner focus border */
-.btn::-moz-focus-inner{
-    padding: 0;
-    border: 0;
-}
-
+/* 不同颜色的按钮 - button with different colors */
 .btn-primary,
-.btn-selected,
-a.btn-primary,
-a.btn-selected {
-    background-color: #1975c3;
-    color: #fff;
-}
+.btn-selected {
+  background-color: #1975c3;
+  color: #fff; }
 
-/* 不同颜色的按钮 */
-a.btn-danger, a.btn-success, a.btn-warning, a.btn-info,a.btn-purple, a.btn-dake {
-    color: white;
-}
-.btn-danger{ background-color:#ed5567; color:#fff; }
-.btn-success{background: #5cb85c; color: white;}
-.btn-warning{background-color:#ff6f3d;border:0;color:#fff}
-.btn-info { background-color: #5bc0de; color: white;}
-.btn-link { background: none; border: 0;  }
-.btn-purple { background: #967adc; color: white; }
-.btn-dake {background: #656d78;color: white;}
-.btn-dakeLight {background: #ccd0d8; color:#656d78; }
+.btn-danger {
+  background-color: #ed5567;
+  color: #fff; }
 
+.btn-success {
+  background: #5cb85c;
+  color: white; }
 
-/* different sizes of button */
-.btn-xsmall {
-    padding:0.2em 0.6em;
-    line-height: 1.5em;
-    *line-height: 0.3em;
-}
+.btn-warning {
+  background-color: #ff6f3d;
+  border: 0;
+  color: #fff; }
+
+.btn-info {
+  background-color: #5bc0de;
+  color: white; }
+
+.btn-link {
+  background: none;
+  border: 0; }
+
+.btn-purple {
+  background: #967adc;
+  color: white; }
+
+.btn-dake {
+  background: #656d78;
+  color: white; }
+
+.btn-dakeLight {
+  background: #ccd0d8;
+  color: #656d78; }
 
 .btn-small {
-    border-radius: 3px;
-    padding:0.6em 0.9em;
+  height: 34px;
+  line-height: 34px; }
 
-}
+.btn-xsmall {
+  height: 26px;
+  line-height: 26px; }
 
 .btn-large {
-    font-size: 125%;
-    border-radius: 4px;
-}
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px; }
 
 .btn-xlarge {
-    font-size: 135%;
-    border-radius: 4px;
-}
-/* block level button */
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px; }
+
+/* 块级按钮 - block level button */
 .btn-block {
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 2px;
-}
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  margin-top: 2px; }

@@ -1,3 +1,4 @@
+@charset "utf-8";
 // Clearfix
 // Source: http://nicolasgallagher.com/micro-clearfix-hack/
 //
@@ -17,6 +18,7 @@
   &:after {
     clear: both;
   }
+  *zoom: 1; // for IE 6/7
 }
 
 // Sizing shortcuts
@@ -32,7 +34,25 @@
 // CSS3 PROPERTIES
 // --------------------------------------------------
 
+// 兼容IE 7、8的透明
+@mixin opacity($opacity) {
+  -khtml-opacity: $opacity;
+  -moz-opacity: $opacity;
+  opacity: $opacity;
+
+  // for IE
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  filter: alpha(opacity=($opacity * 100));
+
+}
+// 兼容主流现代浏览器的圆角边框
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
 // Single side border-radius
+// 顶部边框圆角
 @mixin border-top-radius($radius) {
   -webkit-border-top-right-radius: $radius;
   -moz-border-radius-topright: $radius;
@@ -43,6 +63,7 @@
   border-top-left-radius: $radius;
 }
 
+// 右边框圆角
 @mixin border-right-radius($radius) {
   -webkit-border-bottom-left-radius: $radius;
   -moz-border-radius-bottomleft: $radius;
@@ -52,6 +73,8 @@
   -moz-border-radius-topright: $radius;
   border-top-right-radius: $radius;
 }
+
+// 下边框圆角
 @mixin border-bottom-radius($radius) {
   -webkit-border-bottom-right-radius: $radius;
   -moz-border-radius-bottomright: $radius;
@@ -61,6 +84,8 @@
   -moz-border-radius-bottomleft: $radius;
   border-bottom-left-radius: $radius;
 }
+
+// 左边框圆角
 @mixin border-left-radius($radius) {
   -webkit-border-bottom-left-radius: $radius;
   -moz-border-radius-bottomleft: $radius;
@@ -76,6 +101,7 @@
 // Note: Deprecated `.box-shadow()` as of v3.1.0 since all of Bootstrap's
 //   supported browsers that have box shadow capabilities now support the
 //   standard `box-shadow` property.
+// 盒阴影
 @mixin box-shadow($shadow...) {
   -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
   -moz-box-shadow: $shadow;
@@ -121,6 +147,13 @@
 //
 // Creates two color stops, start and end, by specifying a color and position for each color stop.
 // Color stops are not available in IE9 and below.
+///**
+// * 渐变
+// * @param $start-color    起始颜色
+// * @param $end-color      结束颜色
+// * @param $start-percent  起始百分比
+// * @param $end-percent    结束百分比
+// */
 @mixin gradient-horizontal($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
   background-image: -webkit-linear-gradient(left, color-stop($start-color $start-percent), color-stop($end-color $end-percent)); // Safari 5.1-6, Chrome 10+
   background-image:  linear-gradient(to right, $start-color $start-percent, $end-color $end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
@@ -132,6 +165,13 @@
 //
 // Creates two color stops, start and end, by specifying a color and position for each color stop.
 // Color stops are not available in IE9 and below.
+///**
+// * 垂直渐变
+// * @param $start-color    起始颜色
+// * @param $end-color      结束颜色
+// * @param $start-percent  起始百分比
+// * @param $end-percent    结束百分比
+// */
 @mixin gradient-vertical($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
   background-image: -webkit-linear-gradient(top, $start-color $start-percent, $end-color $end-percent);  // Safari 5.1-6, Chrome 10+
   background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
@@ -139,6 +179,12 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=0); // IE9 and down
 }
 
+///**
+// * 带角度的渐变
+// * @param $start-color  起始颜色
+// * @param $end-color    结束颜色
+// * @param $deg          角度
+// */
 @mixin gradient-directional($start-color: #555, $end-color: #333, $deg: 45deg) {
   background-repeat: repeat-x;
   background-image: -webkit-linear-gradient($deg, $start-color, $end-color); // Safari 5.1-6, Chrome 10+

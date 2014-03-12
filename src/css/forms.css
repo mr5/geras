@@ -1,25 +1,27 @@
+@charset "UTF-8";
 .input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 40px;
-  *height: 38px;
-  vertical-align: middle;
-  line-height: 38px;
+  *line-height: 40px;
+  line-height\0: 40px;
   padding: 0 10px;
   border: 1px solid #c5c7ca;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   -webkit-transition: border-color 1s ease;
-  -moz-transition: border-color 1s ease;
-  -o-transition: border-color 1s ease;
   transition: border-color 1s ease;
   *padding: 0; }
+  .input.btn {
+    padding: 0 15px;
+    margin-left: 5px;
+    border: none; }
 
-.input.btn {
-  padding: 0 15px;
-  margin-left: 5px; }
+select.input {
+  *height: auto;
+  padding\0: 10px; }
 
 legend {
   height: 40px;
@@ -70,10 +72,9 @@ legend {
 
 .form-control {
   display: block;
-  margin-bottom: 1em;
-  padding-left: 1.5em; }
+  margin-bottom: 1em; }
 
-/* different size aligned form */
+/* 不同label尺寸的对齐表单 */
 .label-xsmall .label, .label-small .label, .label-normal .label, .label-large .label {
   text-align: right;
   margin-right: 0.5em;
@@ -91,27 +92,25 @@ legend {
 .label-large .label {
   width: 20em; }
 
-/* label left aligned */
+/* label左对齐 - label left aligned */
 .label-left .label {
   text-align: left; }
 
-/* block level label */
+/* 块级label - block level label */
 .label-block .label {
   text-align: left;
-  display: block; }
+  display: block;
+  margin-bottom: 0.5em; }
 
-.label-block .form-action {
-  padding-left: 1.7em; }
-
-/* form action */
+/* 表单提交按钮行 - form action */
 .label-xsmall .form-action {
-  padding-left: 6.3em; }
+  padding-left: 4.8em; }
 
 .label-small .form-action {
-  padding-left: 9.3em; }
+  padding-left: 7.8em; }
 
 .label-normal .form-action {
-  padding-left: 12.3em; }
+  padding-left: 10.8em; }
 
 .label-large .form-action {
-  padding-left: 22.3em; }
+  padding-left: 20.8em; }

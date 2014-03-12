@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0; }
-
 article,
 aside,
 details,
@@ -30,8 +26,9 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  font-size: 13px;
-  background: #f5f7fa;
+  font-size: 100%;
+  font-size: 12px;
+  background: white;
   color: #656d78;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
@@ -41,40 +38,41 @@ button,
 input,
 select,
 textarea {
-  font-family: Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; }
+  font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif; }
 
 body {
   margin: 0; }
 
 a {
-  background: transparent;
-  text-decoration: none; }
+  background: transparent; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #4e545c;
-  font-weight: 400; }
-
 h1 {
-  font-size: 33px; }
+  font-size: 2.4em;
+  margin: 0.67em 0; }
 
 h2 {
-  font-size: 27px; }
+  font-size: 2em;
+  margin: 0.83em 0; }
 
 h3 {
-  font-size: 23px; }
+  font-size: 1.6em;
+  margin: 1em 0; }
 
 h4 {
-  font-size: 17px; }
+  font-size: 1.2em;
+  margin: 1.33em 0; }
 
 h5 {
-  font-size: 14px; }
+  font-size: 1em;
+  margin: 1.67em 0; }
 
 h6 {
-  font-size: 12px; }
+  font-size: 0.8em;
+  margin: 2.33em 0; }
 
 abbr[title] {
   border-bottom: 1px dotted; }
@@ -141,10 +139,15 @@ dl,
 menu,
 ol,
 ul {
-  list-style: none; }
+  margin: 1em 0; }
 
 dd {
   margin: 0 0 0 40px; }
+
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
 
 nav ul,
 nav ol {
@@ -178,7 +181,7 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
@@ -233,6 +236,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  color: #1975c3; }
+
 .clearfix {
   *zoom: 1; }
 
@@ -261,3 +267,6 @@ table {
 
 .pull-right {
   float: right; }
+
+img {
+  max-width: 100%; }
