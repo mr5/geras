@@ -1,5 +1,5 @@
 .menu {
-  border: 1px solid #f3f2f1;
+  border: 1px solid #e6e9ed;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -55,7 +55,8 @@
     padding-left: 0;
     display: inline-block;
     *display: inline;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-right: 2em; }
 
 .menu-inverse {
   background: #2d3e50; }
