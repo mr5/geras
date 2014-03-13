@@ -110,7 +110,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 //height:100,
                 headerContent:title,
                 bodyContent:message,
-                footerContent:'<a class="btn btn-primary btn-small" style="float:right;" id="J_nayewxAlert_'+ guid +'">'+okBtn+'</a>',
+                footerContent:'<a class="btn btn-primary btn-small" style="float:right;" id="J_demeterAlert_'+ guid +'">'+okBtn+'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -128,7 +128,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 }
             }
             dialog.on('show',function(){
-                var _okBtn = S.Node.one('#J_nayewxAlert_' + guid);
+                var _okBtn = S.Node.one('#J_demeterAlert_' + guid);
                 if(_okBtn != null){
                     _okBtn.on('click',finalHandler);
                 }
@@ -161,9 +161,9 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 width:350,
                 //height:100,
                 headerContent:title,
-                bodyContent:'<form  id="J_nayewxPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input input-1" id="J_nayewxPromptInput_'+guid+'"/></form>',
+                bodyContent:'<form  id="J_demeterPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input input-1" id="J_demeterPromptInput_'+guid+'"/></form>',
                 footerContent:'<a  class="btn btn-primary btn-small" style="float:right;cursor: pointer;" '
-                    +' id="J_nayewxPrompt_'+ guid +'">'+ okBtn +'</a><a class="btn btn-small" style="margin-right: 20px;float:right;" id="J_nayewxPromptCancel_'+ guid +'">取消</a>',
+                    +' id="J_demeterPrompt_'+ guid +'">'+ okBtn +'</a><a class="btn btn-small" style="margin-right: 20px;float:right;" id="J_demeterPromptCancel_'+ guid +'">取消</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -176,20 +176,20 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 }
             } else {
                 var clickHandler = function(){
-                    handler(S.Node.one('#J_nayewxPromptInput_' + guid).val());
+                    handler(S.Node.one('#J_demeterPromptInput_' + guid).val());
                     dialog.destroy();
                 }
             }
             dialog.on('show',function(){
-                var _okBtn = S.Node.one('#J_nayewxPrompt_' + guid);
+                var _okBtn = S.Node.one('#J_demeterPrompt_' + guid);
                 if(_okBtn != null){
                     _okBtn.on('click',clickHandler);
                 }
-                S.Node.one('#J_nayewxPromptForm_' + guid).on('submit',function(){
+                S.Node.one('#J_demeterPromptForm_' + guid).on('submit',function(){
                     clickHandler();
                     return false
                 });
-                S.Node.one('#J_nayewxPromptCancel_' + guid).on('click',function(){
+                S.Node.one('#J_demeterPromptCancel_' + guid).on('click',function(){
                     dialog.destroy();
                 });
             });

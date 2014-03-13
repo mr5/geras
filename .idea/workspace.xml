@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/Util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/jscomponents.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/menus-core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/menus-paginator.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/breadcrumb.css" afterPath="$PROJECT_DIR$/src/css/breadcrumb.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/breadcrumb.scss" afterPath="$PROJECT_DIR$/src/css/breadcrumb.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.html" afterPath="$PROJECT_DIR$/src/tests/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components.html" afterPath="$PROJECT_DIR$/src/tests/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components.jade" afterPath="$PROJECT_DIR$/src/tests/components.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.html" afterPath="$PROJECT_DIR$/src/tests/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grids-core.css" afterPath="$PROJECT_DIR$/src/css/grids-core.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grids-core.scss" afterPath="$PROJECT_DIR$/src/css/grids-core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/grids.html" afterPath="$PROJECT_DIR$/src/tests/grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/grids.jade" afterPath="$PROJECT_DIR$/src/tests/grids.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.html" afterPath="$PROJECT_DIR$/src/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.jade" afterPath="$PROJECT_DIR$/src/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menu.html" afterPath="$PROJECT_DIR$/src/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menu.jade" afterPath="$PROJECT_DIR$/src/menu.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/menus-r.css" afterPath="$PROJECT_DIR$/src/css/menus-r.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/menus.css" afterPath="$PROJECT_DIR$/src/css/menus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/menus.html" afterPath="$PROJECT_DIR$/src/tests/menus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/menus.scss" afterPath="$PROJECT_DIR$/src/css/menus.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panels-r.css" afterPath="$PROJECT_DIR$/src/css/panels-r.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panels-r.scss" afterPath="$PROJECT_DIR$/src/css/panels-r.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/prettify.css" afterPath="$PROJECT_DIR$/src/css/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/tables.html" afterPath="$PROJECT_DIR$/src/tests/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/tests.css" afterPath="$PROJECT_DIR$/src/css/tests.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/tests.scss" afterPath="$PROJECT_DIR$/src/css/tests.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/typo.css" afterPath="$PROJECT_DIR$/src/css/typo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/typo.html" afterPath="$PROJECT_DIR$/src/tests/typo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/typo.scss" afterPath="$PROJECT_DIR$/src/css/typo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" afterPath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -97,26 +62,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dialog.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Dialog.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Dialog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="51" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-12.346154" vertical-offset="339" max-vertical-offset="4230">
+            <state line="271" column="0" selection-start="10136" selection-end="10136" vertical-scroll-proportion="6.452381" vertical-offset="0" max-vertical-offset="4230">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1394699916000" expanded="false" signature="3958:3970" placeholder="..." />
-                <marker date="1394699916000" expanded="false" signature="6074:6102" placeholder="..." />
-                <marker date="1394699916000" expanded="false" signature="6207:6238" placeholder="..." />
-                <marker date="1394699916000" expanded="true" signature="8542:8554" placeholder="..." />
-                <marker date="1394699916000" expanded="false" signature="8664:8695" placeholder="..." />
+                <marker date="1394700222000" expanded="true" signature="3958:3970" placeholder="..." />
+                <marker date="1394700222000" expanded="true" signature="6078:6106" placeholder="..." />
+                <marker date="1394700222000" expanded="true" signature="6212:6243" placeholder="..." />
+                <marker date="1394700222000" expanded="true" signature="8552:8564" placeholder="..." />
+                <marker date="1394700222000" expanded="true" signature="8674:8705" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -499,7 +464,11 @@
       <created>1394644120583</created>
       <updated>1394644120583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="开始开发基于KISSYUI的demeter-ui，目前完成了Dialog&#10;增加了css组件的演示">
+      <created>1394700128894</created>
+      <updated>1394700128894</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,7 +481,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124736" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124736" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -541,7 +510,8 @@
     <MESSAGE value="调整了目录结构，启用jade和sass，提高后期可维护性和开发效率" />
     <MESSAGE value="修改了目录结构、优化了代码，去除冗余无用的代码。" />
     <MESSAGE value="给横向布局菜单的menu-heading加上了右外边距&#10;将竖向布局菜单的边框色与.panel的颜色设置一致" />
-    <option name="LAST_COMMIT_MESSAGE" value="给横向布局菜单的menu-heading加上了右外边距&#10;将竖向布局菜单的边框色与.panel的颜色设置一致" />
+    <MESSAGE value="开始开发基于KISSYUI的demeter-ui，目前完成了Dialog&#10;增加了css组件的演示" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始开发基于KISSYUI的demeter-ui，目前完成了Dialog&#10;增加了css组件的演示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -953,24 +923,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Dialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="51" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-12.346154" vertical-offset="339" max-vertical-offset="4230">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1394699916000" expanded="false" signature="3958:3970" placeholder="..." />
-            <marker date="1394699916000" expanded="false" signature="6074:6102" placeholder="..." />
-            <marker date="1394699916000" expanded="false" signature="6207:6238" placeholder="..." />
-            <marker date="1394699916000" expanded="true" signature="8542:8554" placeholder="..." />
-            <marker date="1394699916000" expanded="false" signature="8664:8695" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="271" column="0" selection-start="10136" selection-end="10136" vertical-scroll-proportion="6.452381" vertical-offset="0" max-vertical-offset="4230">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1394700222000" expanded="true" signature="3958:3970" placeholder="..." />
+            <marker date="1394700222000" expanded="true" signature="6078:6106" placeholder="..." />
+            <marker date="1394700222000" expanded="true" signature="6212:6243" placeholder="..." />
+            <marker date="1394700222000" expanded="true" signature="8552:8564" placeholder="..." />
+            <marker date="1394700222000" expanded="true" signature="8674:8705" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
