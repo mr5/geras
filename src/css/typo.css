@@ -237,4 +237,22 @@ p img {
   display: inline;
   margin-right: 1.5em; }
 
+.text-success {
+  color: #5cb85c; }
+
+.text-info {
+  color: #5bc0de; }
+
+.text-danger {
+  color: #ed5567; }
+
+.text-success-inverse {
+  color: #a3d7a3; }
+
+.text-info-inverse {
+  color: #b0e1ef; }
+
+.text-danger-inverse {
+  color: #f7b1b9; }
+
 /* @end Typography */

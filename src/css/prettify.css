@@ -13,29 +13,6 @@ pre .atv { color:#bcd42a; }
 pre .dec,
 pre .var { color:#660066; }
 pre .fun { color:#ff0000; }
-
-/*
-pre.prettyprint
-{
-    background: #3F3F49;
-    border: 0!important;
-    border-radius: 2px;
-    padding: 20px!important;
-	display: block;
-	overflow: hidden;
-	white-space: pre;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	font-family: monospace;
-}
-
-pre.prettyprint span
-{
-	font-size: 13px!important;
-	/*font-weight: 600!important;
-}
-*/
-
 .prettyprint {
     display: block;
     font-family:Monaco,Consolas,"Lucida Console",monospace;

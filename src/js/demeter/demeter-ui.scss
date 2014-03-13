@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import "../../variables";
+@import "../../mixins";
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_1394697870_8714375.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_1394697870_8714375.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_1394697870_899021.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/font_1394697870_1456847.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_1394697870_9184244.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{font-family:"iconfont";
+  font-size:16px;font-style:normal;
+  margin-right: 0.6em;
+}
+/* KISSY - OVERLAY */
+.ks-dialog {
+  background: white;
+  border: 1px solid #e6e9ed;
+  padding: 1em;
+  @include border-radius(4px);
+}
+
+.ks-overlay {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  &:focus {
+    outline: none;
+  }
+  .ks-overlay-header {
+    border-bottom: 1px solid #e6e9ed;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 0.5em;
+    color: #434a54;
+  }
+  .ks-overlay-close-x {
+    float: right;
+    content: 'x';
+  }
+  .ks-overlay-body {
+    padding: 15px 0;
+    font-size: 14px;
+  }
+}
+.ks-overlay-hidden {
+  visibility: hidden; }
+
+.ks-overlay-mask {
+  background: #333;
+  @include opacity(0.3);
+}
+
+.ks-overlay-mask-hidden {
+  display: none; }
+
+.ks-overlay-shown {
+  visibility: visible; }
+
+.ks-overlay-mask-shown {
+  display: block; }
+
+
+.tip-text{
+  text-align: center;
+  width:auto;
+  font-size: 14px;
+  line-height: 53px;
+  padding:0 2em;
+  background: #2d3e50;
+  border-radius: 4px;
+  @include opacity(0.9);
+}

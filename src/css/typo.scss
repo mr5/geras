@@ -304,6 +304,24 @@ p {
     margin-right: 1.5em;
   }
 }
+.text-success {
+  color: #5cb85c;
+}
+.text-info {
+  color: #5bc0de;
+}
+.text-danger {
+  color: #ed5567;
+}
+.text-success-inverse {
+  color: lighten(#5cb85c,20%);
+}
+.text-info-inverse {
+  color: lighten(#5bc0de,20%);
+}
+.text-danger-inverse {
+  color: lighten(#ed5567,20%);
+}
 //h1
 //{
 //  font-size: 275%;

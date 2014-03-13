@@ -49,7 +49,7 @@ grunt.initConfig({
         build: {
             files: [
                 {'build/base.css': [
-                    'bower_components/normalize-css/normalize.css',
+//                    'bower_components/normalize-css/normalize.css',
                     'build/base.css'
                 ]},
 
@@ -132,18 +132,18 @@ grunt.initConfig({
 
     // -- CSSLint Config -------------------------------------------------------
 
-//    csslint: {
-//        options: {
-//            csslintrc: '.csslintrc'
-//        },
-//
-//        base   : ['src/base.css'],
-//        buttons: ['src/buttons.css'],
-//        forms  : ['src/forms/css/*.css'],
-//        grids  : ['src/grids/css/*.css'],
-//        menus  : ['src/menus/css/*.css'],
-//        tables : ['src/tables/css/*.css']
-//    },
+    csslint: {
+        options: {
+            csslintrc: '.csslintrc'
+        },
+
+        base   : ['src/base.css'],
+        buttons: ['src/buttons.css'],
+        forms  : ['src/forms/css/*.css'],
+        grids  : ['src/grids/css/*.css'],
+        menus  : ['src/menus/css/*.css'],
+        tables : ['src/tables/css/*.css']
+    },
 
     // -- CSSMin Config --------------------------------------------------------
 
@@ -192,7 +192,7 @@ grunt.initConfig({
             src   : ['base*.css', '<%= pkg.name %>*.css']
         },
 
-        yahoo: {
+        demeter: {
             options: {
                 banner: [
                     '/*!',
@@ -232,6 +232,21 @@ grunt.initConfig({
             }
         }
     },
+    jade: {
+        compile: {
+            options: {
+                pretty:true,
+                data: {}
+            },
+            files: [{
+                expand: true,
+//                cwd: 'source',
+                src: [ 'src/*.jade', 'src/tests/*.jade' ],
+                dest: './',
+                ext: '.html'
+            }]
+        }
+    },
 
     // -- Watch/Observe Config -------------------------------------------------
 
@@ -258,15 +273,16 @@ grunt.loadNpmTasks('grunt-contrib-cssmin');
 grunt.loadNpmTasks('grunt-contrib-compress');
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-css-selectors');
+grunt.loadNpmTasks('grunt-contrib-jade');
 //grunt.loadNpmTasks('grunt-pure-grids');
 
 // Local tasks.
 grunt.loadTasks('tasks/');
 
 //grunt.registerTask('default', ['import', 'test', 'build']);
-    grunt.registerTask('default', ['import', 'build']);
+grunt.registerTask('default', ['build']);
 
-    grunt.registerTask('import', ['bower_install']);
+//grunt.registerTask('import');
 //grunt.registerTask('test', ['csslint']);
 grunt.registerTask('build', [
     'clean:build',
@@ -276,6 +292,7 @@ grunt.registerTask('build', [
     'clean:build_res',
     'css_selectors:base',
     'cssmin',
+    'jade',
     'license'
 ]);
 
@@ -287,7 +304,7 @@ grunt.registerTask('release', [
     'default',
     'clean:release',
     'copy:release',
-    'bower_json:release',
+//    'bower_json:release',
     'compress:release'
 ]);
 

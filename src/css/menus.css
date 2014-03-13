@@ -58,14 +58,14 @@
     font-size: 18px;
     margin-right: 2em; }
 
-.menu-inverse {
+.menu.menu-inverse {
   background: #2d3e50; }
-  .menu-inverse .menu-heading {
+  .menu.menu-inverse .menu-heading {
     color: white; }
-  .menu-inverse .menu-item, .menu-inverse .menu-item a {
+  .menu.menu-inverse .menu-item, .menu.menu-inverse .menu-item a {
     color: #6FBEF3;
     background: none; }
-  .menu-inverse .menu-item a:hover, .menu-inverse .active a {
+  .menu.menu-inverse .menu-item a:hover, .menu.menu-inverse .active a {
     /*text-decoration: none;*/
     color: white; }
 
