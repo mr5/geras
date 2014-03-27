@@ -2,7 +2,7 @@
 @import "../../variables";
 @import "../../mixins";
 @font-face {
-  font-family: 'iconfont';
+  font-family: 'dmt-iconfont';
   src: url('http://at.alicdn.com/t/font_1394697870_8714375.eot'); /* IE9*/
   src: url('http://at.alicdn.com/t/font_1394697870_8714375.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('http://at.alicdn.com/t/font_1394697870_899021.woff') format('woff'), /* chrome、firefox */
@@ -10,7 +10,7 @@
   url('http://at.alicdn.com/t/font_1394697870_9184244.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-.iconfont{font-family:"iconfont";
+.dmt-iconfont{font-family:"dmt-iconfont";
   font-size:16px;font-style:normal;
   margin-right: 0.6em;
 }
@@ -18,8 +18,8 @@
 .ks-dialog {
   background: white;
   border: 1px solid #e6e9ed;
-  padding: 1em;
-  @include border-radius(4px);
+//  padding: 1em;
+//  @include border-radius(4px);
 }
 
 .ks-overlay {
@@ -30,26 +30,76 @@
     outline: none;
   }
   .ks-overlay-header {
-    border-bottom: 1px solid #e6e9ed;
     margin: 0;
     font-size: 16px;
-    padding-bottom: 0.5em;
+    font-weight: bold;
+    padding: 1em;
     color: #434a54;
+    text-align: center;
+  }
+  .ks-overlay-close {
+//    margin: 1em;
   }
   .ks-overlay-close-x {
+    margin-right: 13px;
+    margin-top: 15px;
+
+    color: white;
     float: right;
-    content: 'x';
+    height: 16px;
+    width: 16px;
+    background: url("images/close.png");
+    vertical-align: top;
+
+    background-position:0px 0;
+    font-size: 0;
+  }
+  .ks-overlay-close-x:hover {
+    background-position:-17px 0;
+
   }
   .ks-overlay-body {
-    padding: 15px 0;
-    font-size: 14px;
+    padding: 1.4em;
+//    padding: 15px 0;
+//    font-size: 12px;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .ks-overlay-footer {
+    @include clearfix();
+//    background: #f3f3f3;
+    border-top: 1.5px solid #e6e9ed;
+
+    //    width: 100%;
+//    height: 34px;
+    margin-top: 0.4em;
+    text-align: center;
+    padding: 0.8em;
+
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5), /* 注意这里的写法比较特殊 */
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .ks-overlay {
+    .ks-overlay-close-x {
+      background: url("images/close@2x.png");
+      background-size: 67px 16px;
+      background-position: 0 0;
+    }
+    .ks-overlay-close-x:hover {
+//      background-size: 67px 32px;
+      background-position: -17px 0;
+    }
   }
 }
 .ks-overlay-hidden {
   visibility: hidden; }
 
 .ks-overlay-mask {
-  background: #333;
+  background: #000;
+//  background:url(images/mask.gif);
   @include opacity(0.3);
 }
 

@@ -120,6 +120,7 @@ input,
 select,
 textarea {
   font-family: $normalized_font_family;
+  font-weight: 400;
 }
 
 // Addresses margins handled incorrectly in IE6/7

@@ -3,7 +3,7 @@
 // +----------------------------------------------------------------------
 // + Datetime: 13-6-30 下午9:15
 // +----------------------------------------------------------------------
-// + 对话框工具类，目前实现alert、propmt、confirm
+// + 对话框工具类，目前实现tip\alert、propmt、confirm
 // +----------------------------------------------------------------------
 /**
  * 实现tip alert、propmt、confirm
@@ -15,15 +15,15 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
     /**
      *
      * 实现alert、propmt、confirm
-     * @class nayewx.widget.XBDialog
+     * @class demeter.ui.Dialog
      */
     return {
         /**
          *
          * @param {string}  message 提示消息
-         * @param {string}  type    [option]类型，支持info|error|ok，默认为info
+         * @param {string}  type    [option]类型，支持info|error|success，默认为info
          * @param {int}     delay   [option]消失延迟时间毫秒数，默认为3000
-         * @memberOf XBDialog
+         * @memberOf Dialog
          */
         tip:function(message,type,delay){
             if(delay == null){
@@ -37,7 +37,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
             var text_cls = 'text-info-inverse';
             switch(type){
                 case 'success':
-                    icon = '&#x3435;'; // ok
+                    icon = '&#x3435;'; // success
                     text_cls = 'text-success-inverse';
                     break;
                 case 'error':
@@ -47,14 +47,14 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
             }
             var content =
 //                '<div class="tip-icon ' + icon+ '">&nbsp;</div>'+
-                    '<p class="tip-text '+ text_cls +'"><i class="iconfont">'+icon+'</i>'+message+'</p>';
+                    '<p class="tip-text '+ text_cls +'"><i class="dmt-iconfont">'+icon+'</i>'+message+'</p>';
 //                    '<div class="tip-right">&nbsp;</div>';
             if(tip_dialog == null){
                 tip_dialog = new O({
 //                    height:45,
                     //height:100,
                     width:'auto',
-//                    elCls:'drift-tip',
+//                    elCls:'drift-tip',s
                     align: {
                         points: ['cc', 'cc']
                     },
@@ -88,7 +88,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
          * @param {function}    handler         [option]确定按钮处理事件
          * @param {string}      title           [option]标题，默认为“提示消息”
          * @param {string}      okBtn           [option]确定按钮文字，默认为“确认”
-         * @memberOf XBDialog
+         * @memberOf Dialog
          */
         alert:function(message,handler,title,okBtn){
             if(title == null){
@@ -97,7 +97,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 title = title.toString();
             }
             if(okBtn == null){
-                okBtn = '知道了';
+                okBtn = '好的';
             } else {
                 okBtn = okBtn.toString();
             }
@@ -106,11 +106,11 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
             }
             var guid = S.guid();
             var dialog = new O.Dialog({
-                width:300,
-                //height:100,
+                width:400,
+                
                 headerContent:title,
                 bodyContent:message,
-                footerContent:'<a class="btn btn-primary btn-small" style="float:right;" id="J_demeterAlert_'+ guid +'">'+okBtn+'</a>',
+                footerContent:'<a class="btn  btn-small"  id="J_demeterAlert_'+ guid +'"><i class="dmt-iconfont">&#x3435;</i>'+okBtn+'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -146,24 +146,23 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
          * @param {string}      okBtn           [option]确定按钮文字替换，默认为“确定输入”
          * @param {Regex}       regex           [option]!!!TODO 这个功能还没做。正则表达式，在提交前将使用改正则测试输入框中的内容，如果false，则提示errormsg
          * @param {string}      errormsg        [option]!!!TODO 这个功能还没做错误提示消息，参考regex参数
-         * @memberOf XBDialog
+         * @memberOf Dialog
          */
         prompt:function(message,handler,title,okBtn,regex,errormsg){
             if(title == null){
                 title = '请输入';
             }
             if(okBtn == null){
-                okBtn = '确定输入';
+                okBtn = '确定';
             }
 
             var guid = S.guid();
             var dialog = new O.Dialog({
-                width:350,
-                //height:100,
+                width:400,
+                
                 headerContent:title,
                 bodyContent:'<form  id="J_demeterPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input input-1" id="J_demeterPromptInput_'+guid+'"/></form>',
-                footerContent:'<a  class="btn btn-primary btn-small" style="float:right;cursor: pointer;" '
-                    +' id="J_demeterPrompt_'+ guid +'">'+ okBtn +'</a><a class="btn btn-small" style="margin-right: 20px;float:right;" id="J_demeterPromptCancel_'+ guid +'">取消</a>',
+                footerContent:'<a class="btn btn-small" style="margin-right: 20px;" id="J_demeterPromptCancel_'+ guid +'"><i class="dmt-iconfont">&#x3432;</i>取消</a>' + '<a  class="btn btn-primary btn-small"  ' +' id="J_demeterPrompt_'+ guid +'"><i class="dmt-iconfont">&#x3435;</i>'+ okBtn +'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -205,7 +204,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
          * @param {string}      okBtn               [option]确定按钮文字替换，默认为“确定”
          * @param {string}      cancelBtn           [option]取消按钮文字替换，默认为“取消”
          * @param {string}      title               [option]提示标题，默认为“操作确认”
-         * @memberOf XBDialog
+         * @memberOf Dialog
          */
         confirm:function(message,okHandler,cancelHandler,okBtn,cancelBtn,title){
             if(title == null){
@@ -219,12 +218,12 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
             }
             var guid = S.guid();
             var dialog = new O.Dialog({
-                width:350,
-                //height:100,
+                width:400,
+                
                 headerContent:title,
                 bodyContent:message,
-                footerContent:'<a  class="btn btn-danger btn-small" style="float:right;" '
-                    +' id="J_demeterConfirmOK_'+ guid +'">'+ okBtn +'</a><a class="btn  btn-small" style="margin-right: 20px;float:right;" id="J_demeterConfirmCancel_'+ guid +'">取消</a>',
+                footerContent: '<a class="btn  btn-small"  id="J_demeterConfirmCancel_'+ guid +'"><i class="dmt-iconfont">&#x3432;</i>取消</a>' + '<a  class="btn btn-danger btn-small"  '
+                    +' id="J_demeterConfirmOK_'+ guid +'"><i class="dmt-iconfont">&#x3435;</i>'+ okBtn + '</a>',
                 align: {
                     points: ['cc', 'cc']
                 },

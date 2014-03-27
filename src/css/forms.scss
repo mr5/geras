@@ -26,7 +26,10 @@ select.input {
   *height: auto;    // for IE7
   padding\0: 10px;  // for IE8
 }
-
+textarea.input {
+  height: 80px;
+  padding: 0.8em;
+}
 legend {
   height: 40px;
   border-bottom: 1px solid #e6e9ed;

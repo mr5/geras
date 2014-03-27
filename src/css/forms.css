@@ -23,6 +23,10 @@ select.input {
   *height: auto;
   padding\0: 10px; }
 
+textarea.input {
+  height: 80px;
+  padding: 0.8em; }
+
 legend {
   height: 40px;
   border-bottom: 1px solid #e6e9ed;

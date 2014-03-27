@@ -1,11 +1,6 @@
 @media (max-width: 767px) {
-    .menu-horizontal .menu-item{
+    .menu-horizontal.menu-r .menu-item{
         width: 100%;
         display: block;
-        /*border-bottom: 1px solid #f3f2f1;*/
-    }
-
-    .menu-horizontal .menu-item {
-
     }
 }

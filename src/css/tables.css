@@ -3,7 +3,7 @@
  */
 .table {width: 100%;margin-bottom: 18px;}
 .table th,
-.table td {padding: 8px;line-height: 18px;text-align: left;vertical-align: top;border-top: 1px solid #dddddd;}
+.table td {padding: 8px;line-height: 18px;text-align: left;vertical-align: middle;border-top: 1px solid #dddddd;}
 .table th {font-weight: bold;}
 .table thead th {vertical-align: bottom;}
 .table thead th,

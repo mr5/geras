@@ -111,7 +111,10 @@ grunt.initConfig({
                     'build/menus.css',
                     'build/tables.css',
                     'build/panels.css',
-                    'build/typo.css'
+                    'build/typo.css',
+                    'build/pagination.css',
+                    'build/breadcrumb.css'
+
 
 
                 ]},
@@ -124,7 +127,11 @@ grunt.initConfig({
                     'build/menus-nr.css',
                     'build/tables.css',
                     'build/panels-nr.css',
-                    'build/typo.css'
+                    'build/typo.css',
+                    'build/pagination.css',
+                    'build/breadcrumb.css'
+
+
                 ]}
             ]
         }

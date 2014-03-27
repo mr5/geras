@@ -15,7 +15,7 @@
 }
 
 .btn-success {
-  background: #5cb85c;
+  background: #33b07d;
   color: white;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .btn-info {
-  background-color: #5bc0de;
+  background-color: #02a4c6;
   color: white;
 }
 
@@ -51,6 +51,14 @@
 
 
 // 不同尺寸的按钮 -
+.btn-xxsmall {
+  height: 18px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+  font-size: 12px;
+  line-height: 18px;
+}
 .btn-small {
   height: 34px;
   line-height: 34px;
