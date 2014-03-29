@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="增加了3个偏移样式：.dmt-o-1 .dmt-o-2 .dmt-o-3 用于方便布局。&#10;增加Dialog组件&#10;menu的响应化改为需要手动指定menu-r">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/images/close@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" afterPath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_normalize.scss" afterPath="$PROJECT_DIR$/src/css/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/base.css" afterPath="$PROJECT_DIR$/src/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/buttons-core.scss" afterPath="$PROJECT_DIR$/src/css/buttons-core.scss" />
+    <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/buttons.css" afterPath="$PROJECT_DIR$/src/css/buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.html" afterPath="$PROJECT_DIR$/src/tests/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.jade" afterPath="$PROJECT_DIR$/src/tests/buttons.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/buttons.scss" afterPath="$PROJECT_DIR$/src/css/buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" afterPath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms.css" afterPath="$PROJECT_DIR$/src/css/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.html" afterPath="$PROJECT_DIR$/src/tests/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.jade" afterPath="$PROJECT_DIR$/src/tests/forms.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms.scss" afterPath="$PROJECT_DIR$/src/css/forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grids-core.css" afterPath="$PROJECT_DIR$/src/css/grids-core.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grids-core.scss" afterPath="$PROJECT_DIR$/src/css/grids-core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/menus-r.css" afterPath="$PROJECT_DIR$/src/css/menus-r.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panels-r.css" afterPath="$PROJECT_DIR$/src/css/panels-r.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panels-r.scss" afterPath="$PROJECT_DIR$/src/css/panels-r.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panels.css" afterPath="$PROJECT_DIR$/src/css/panels.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/panels.scss" afterPath="$PROJECT_DIR$/src/css/panels.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/tables.css" afterPath="$PROJECT_DIR$/src/css/tables.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -94,10 +73,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demeter-min.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="demeter-min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="47" selection-start="0" selection-end="19794" vertical-scroll-proportion="0.29456192" vertical-offset="0" max-vertical-offset="662">
+            <state line="13" column="84" selection-start="0" selection-end="19835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttons.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="19" selection-start="521" selection-end="521" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -112,38 +109,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="panels.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/panels.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1350">
-              <folding>
-                <marker date="1395938046000" expanded="true" signature="299:316" placeholder="{...}" />
-                <marker date="1395938046000" expanded="true" signature="347:417" placeholder="{...}" />
-                <marker date="1395938046000" expanded="true" signature="1540:1572" placeholder="{...}" />
-                <marker date="1395938046000" expanded="true" signature="1629:1670" placeholder="{...}" />
-                <marker date="1395938046000" expanded="true" signature="1719:1745" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="grids-core.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/grids-core.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3750">
               <folding>
-                <marker date="1395938046000" expanded="true" signature="2447:2590" placeholder="{...}" />
-                <marker date="1395938046000" expanded="true" signature="3243:3253" placeholder="{...}" />
+                <marker date="1395999178000" expanded="true" signature="2447:2590" placeholder="{...}" />
+                <marker date="1395999178000" expanded="true" signature="3243:3253" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demeter-ui.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/demeter/demeter-ui.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="1" selection-start="2526" selection-end="2526" vertical-scroll-proportion="-5.36" vertical-offset="1277" max-vertical-offset="1965">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -205,7 +178,6 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/css/tables.css" />
         <option value="$PROJECT_DIR$/src/tests/buttons.jade" />
-        <option value="$PROJECT_DIR$/src/css/buttons.scss" />
         <option value="$PROJECT_DIR$/src/css/buttons-core.scss" />
         <option value="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
         <option value="$PROJECT_DIR$/src/js/demeter/test.js" />
@@ -215,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/css/panels-r.scss" />
         <option value="$PROJECT_DIR$/src/css/panels.scss" />
         <option value="$PROJECT_DIR$/src/css/grids-core.scss" />
+        <option value="$PROJECT_DIR$/src/css/buttons.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -333,11 +307,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,13 +439,18 @@
       <created>1394700246180</created>
       <updated>1394700246180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加了3个偏移样式：.dmt-o-1 .dmt-o-2 .dmt-o-3 用于方便布局。&#10;增加Dialog组件&#10;menu的响应化改为需要手动指定menu-r">
+      <created>1395938890878</created>
+      <updated>1395938890878</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="818" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -476,7 +465,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -669,27 +657,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2100" />
+        <state line="30" column="14" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2100">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/tables.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="81" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1260" />
+        <state line="5" column="81" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1260">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/buttons.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1470" />
+        <state line="41" column="51" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="810">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="945" />
+        <state line="14" column="26" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="945">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins.scss">
@@ -754,11 +745,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
           <folding>
-            <marker date="1395938046000" expanded="true" signature="299:316" placeholder="{...}" />
-            <marker date="1395938046000" expanded="true" signature="347:417" placeholder="{...}" />
-            <marker date="1395938046000" expanded="true" signature="1540:1572" placeholder="{...}" />
-            <marker date="1395938046000" expanded="true" signature="1629:1670" placeholder="{...}" />
-            <marker date="1395938046000" expanded="true" signature="1719:1745" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -767,8 +758,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4290">
           <folding>
-            <marker date="1395938046000" expanded="true" signature="2447:2590" placeholder="{...}" />
-            <marker date="1395938046000" expanded="true" signature="3243:3253" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="2447:2590" placeholder="{...}" />
+            <marker date="1395999178000" expanded="true" signature="3243:3253" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -815,9 +806,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="19" selection-start="521" selection-end="521" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="0" selection-end="19794" vertical-scroll-proportion="0.29456192" vertical-offset="0" max-vertical-offset="662">
+        <state line="13" column="84" selection-start="0" selection-end="19835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
