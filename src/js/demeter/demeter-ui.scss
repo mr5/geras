@@ -18,24 +18,27 @@
 .ks-dialog {
   background: white;
   border: 1px solid #e6e9ed;
-//  padding: 1em;
-//  @include border-radius(4px);
+  @include box-shadow(2px 2px 2px #777);
+  @include border-radius(2px);
 }
 
 .ks-overlay {
   position: absolute;
   left: -9999px;
   top: -9999px;
+  z-index: 9999;
   &:focus {
     outline: none;
   }
   .ks-overlay-header {
     margin: 0;
-    font-size: 16px;
+//    paddidmt-left: 15px;
+    border-bottom: 2px #eee solid;
     font-weight: bold;
-    padding: 1em;
+    padding: 15px;
     color: #434a54;
-    text-align: center;
+    font-size:14px;
+//    text-align: center;
   }
   .ks-overlay-close {
 //    margin: 1em;
@@ -59,21 +62,21 @@
 
   }
   .ks-overlay-body {
-    padding: 1.4em;
-//    padding: 15px 0;
+    padding: 25px 15px;
+    //    padding: 15px 0;
 //    font-size: 12px;
     line-height: 1.5em;
-    text-align: center;
+//    text-align: center;
   }
   .ks-overlay-footer {
     @include clearfix();
 //    background: #f3f3f3;
-    border-top: 1.5px solid #e6e9ed;
+//    border-top: 1.5px solid #e6e9ed;
 
     //    width: 100%;
 //    height: 34px;
     margin-top: 0.4em;
-    text-align: center;
+    text-align: right;
     padding: 0.8em;
 
   }
@@ -123,3 +126,203 @@ only screen and (min-device-pixel-ratio: 1.5) {
   border-radius: 4px;
   @include opacity(0.9);
 }
+
+/* POPOVER */
+.dmt-popover {
+
+  position: absolute;
+  padding: 5px 10px;
+  padding-left: 15px;
+//  height: 30px;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  *border: 3px solid #000;
+//  width: 320px;
+//  font: 12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";
+  background-color: #fff;
+  @include border-radius(3px);
+  .dmt-arrow {
+    position: absolute;
+    left: auto;
+    right: -20px;
+    top: 10px;
+    width: 15px;
+    height: 30px;
+    /*overflow: hidden;*/
+    .border-arrow {
+      position: absolute;
+      left: 2px;
+      top: 0;
+      width: 0;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      border-left: 0;
+      border-left: 15px solid #fff;
+      border-bottom: 15px dashed transparent;
+      border-top: 15px dashed transparent;
+    }
+    .border-arrow-up {
+      left: auto;
+      right: 6px;
+      top: 0;
+    }
+    .border-arrow-down {
+      left:-2px;
+      border-left-color: rgba(0, 0, 0, 0.8);
+      *border-left-color: #000;
+    }
+  }
+//  @include opacity(0);
+}
+/* 默认 left */
+//.dmt-popover
+//
+//.dmt-popover .dmt-arrow .border-arrow {
+//  position: absolute;
+//  left: 0;
+//  top: 0;
+//  width: 0;
+//  height: 0;
+//  font-size: 0;
+//  line-height: 0;
+//  overflow: hidden;
+//  border-left: 0;
+//  border-left: 15px solid #fff;
+//  border-bottom: 15px dashed transparent;
+//  border-top: 15px dashed transparent;
+//}
+
+//.dmt-popover .dmt-arrow
+
+//.dmt-popover .dmt-arrow
+
+/* right */
+.dmt-popover-right {
+
+  .dmt-arrow {
+    left: -20px;
+    top: 10px;
+    /*overflow: hidden;*/
+    .border-arrow {
+      left: -2px;
+      top: 0;
+      width: 0;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      border-left: 0;
+      border-right: 15px solid #fff;
+      border-bottom: 15px dashed transparent;
+      border-top: 15px dashed transparent;
+    }
+    .border-arrow-up {
+      left: 6px;
+      top: 0;
+    }
+    .border-arrow-down {
+      left:2px;
+      border-right-color: rgba(0, 0, 0, 0.8);
+      *border-right-color: #000\9;
+    }
+  }
+}
+
+//.dmt-popover-right .dmt-arrow
+
+//.dmt-popover-right .dmt-arrow
+
+//.dmt-popover-right .dmt-arrow
+
+/* bottom */
+.dmt-popover-bottom {
+  display: none;
+
+  .dmt-arrow {
+    position: absolute;
+    left: 10px;
+    right: auto;
+    top: -20px;
+    width: 30px;
+    height: 15px;
+    /*overflow: hidden;*/
+    .border-arrow {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      width: 0;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      border-top: 0;
+      border-bottom: 15px solid #fff;
+      border-left: 15px dashed transparent;
+      border-right: 15px dashed transparent;
+    }
+    .border-arrow-up {
+      left: 0;
+      right: 0;
+      top: 6px;
+    }
+    .border-arrow-down {
+      border-bottom-color: rgba(0, 0, 0, 0.8);
+      *border-bottom-color: #000;
+    }
+  }
+
+
+}
+
+//.dmt-popover-bottom .dmt-arrow
+
+//.dmt-popover-bottom .dmt-arrow
+//
+//.dmt-popover-bottom .dmt-arrow
+
+/* top */
+.dmt-popover-top {
+  display: none;
+  .dmt-arrow {
+    position: absolute;
+    left: 10px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    width: 30px;
+    height: 15px;
+    /*overflow: hidden;*/
+    .border-arrow {
+      position: absolute;
+      left: 0;
+      top: -2px;
+      width: 0;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      border-bottom: 0;
+      border-top: 15px solid #fff;
+      border-left: 15px dashed transparent;
+      border-right: 15px dashed transparent;
+    }
+    .border-arrow-up {
+      left: 0;
+      right: 0;
+      top: auto;
+      bottom: 6px;
+    }
+    .border-arrow-down {
+      border-top-color: rgba(0, 0, 0, 0.8);
+      *border-top-color: #000;
+    }
+  }
+
+}
+
+//.dmt-popover-top .dmt-arrow
+
+//.dmt-popover-top .dmt-arrow
+//
+//.dmt-popover-top .dmt-arrow

@@ -110,7 +110,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 
                 headerContent:title,
                 bodyContent:message,
-                footerContent:'<a class="btn  btn-small"  id="J_demeterAlert_'+ guid +'"><i class="dmt-iconfont">&#x3435;</i>'+okBtn+'</a>',
+                footerContent:'<a class="btn  btn-small btn-primary"  id="J_demeterAlert_'+ guid +'">'+okBtn+'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -144,25 +144,26 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
          * @param {function}    handler         回调函数，会将输入框中的内容作为参数传入
          * @param {string}      title           [option]提示标题
          * @param {string}      okBtn           [option]确定按钮文字替换，默认为“确定输入”
-         * @param {Regex}       regex           [option]!!!TODO 这个功能还没做。正则表达式，在提交前将使用改正则测试输入框中的内容，如果false，则提示errormsg
-         * @param {string}      errormsg        [option]!!!TODO 这个功能还没做错误提示消息，参考regex参数
+         * @param {string}      defaultValue    [option] 默认值
          * @memberOf Dialog
          */
-        prompt:function(message,handler,title,okBtn,regex,errormsg){
+        prompt:function(message,handler,title,okBtn, defaultValue){
             if(title == null){
                 title = '请输入';
             }
             if(okBtn == null){
                 okBtn = '确定';
             }
-
+            if(defaultValue == null) {
+                defaultValue = '';
+            }
             var guid = S.guid();
             var dialog = new O.Dialog({
                 width:400,
                 
                 headerContent:title,
-                bodyContent:'<form  id="J_demeterPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input input-1" id="J_demeterPromptInput_'+guid+'"/></form>',
-                footerContent:'<a class="btn btn-small" style="margin-right: 20px;" id="J_demeterPromptCancel_'+ guid +'"><i class="dmt-iconfont">&#x3432;</i>取消</a>' + '<a  class="btn btn-primary btn-small"  ' +' id="J_demeterPrompt_'+ guid +'"><i class="dmt-iconfont">&#x3435;</i>'+ okBtn +'</a>',
+                bodyContent:'<form  id="J_demeterPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input dmt-u-7-8" id="J_demeterPromptInput_'+guid+'" value="'+ defaultValue +'"/></form>',
+                footerContent:'<a class="btn btn-small" style="margin-right: 20px;" id="J_demeterPromptCancel_'+ guid +'">取消</a>' + '<a  class="btn btn-primary btn-small"  ' +' id="J_demeterPrompt_'+ guid +'">'+ okBtn +'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -222,8 +223,8 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 
                 headerContent:title,
                 bodyContent:message,
-                footerContent: '<a class="btn  btn-small"  id="J_demeterConfirmCancel_'+ guid +'"><i class="dmt-iconfont">&#x3432;</i>取消</a>' + '<a  class="btn btn-danger btn-small"  '
-                    +' id="J_demeterConfirmOK_'+ guid +'"><i class="dmt-iconfont">&#x3435;</i>'+ okBtn + '</a>',
+                footerContent: '<a class="btn  btn-small"  id="J_demeterConfirmCancel_'+ guid +'">取消</a>' + '<a  class="btn btn-danger btn-small"  '
+                    +' id="J_demeterConfirmOK_'+ guid +'">'+ okBtn + '</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -266,6 +267,9 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
 
             });
             dialog.show();
+        },
+        popover: function(target, message, onShow, onHide) {
+
         }
     };
 

@@ -68,16 +68,16 @@ this the same font stack that Normalize.css sets for the `body`.
   font-family: sans-serif; }
 
 .dmt-o-1 {
-  margin-left: 4%; }
+  margin-left: 3.25%; }
 
 .dmt-o-2 {
-  margin-left: 8%; }
+  margin-left: 6.5%; }
 
 .dmt-o-3 {
-  margin-left: 12%; }
+  margin-left: 9.75%; }
 
 .dmt-o-4 {
-  margin-left: 16%; }
+  margin-left: 13%; }
 
 .dmt-u-1,
 .dmt-u-1-1,
@@ -133,8 +133,7 @@ this the same font stack that Normalize.css sets for the `body`.
   vertical-align: top;
   text-rendering: auto;
   padding: 0;
-  *zoom: 1;
-  box-sizing: border-box; }
+  *zoom: 1; }
 
 .dmt-u-1-24 {
   width: 4.1667%; }

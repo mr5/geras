@@ -9,8 +9,7 @@
   /* for IE 6/7 IE对Button的左右内边距设置的过大 */
   *overflow: visible;
 
-  @include box-sizing(border-box);
-  margin-right: 1em;
+  margin-right: 10px;
   padding:0 1.5em;
   @include border-radius(3px);
   cursor: pointer;
@@ -20,7 +19,7 @@
   // font
   text-decoration: none;
   text-align: center;
-  font-size:12px;
+  font-size:14px;
   color: #656d78;
   background-color: #e6e6e6;
 

@@ -70,17 +70,18 @@ this the same font stack that Normalize.css sets for the `body`.
 .dmt-g [class *= "dmt-u"] {
   font-family: sans-serif;
 }
+$offsetBase:3.25%;
 .dmt-o-1 {
-  margin-left: 4%;
+  margin-left: $offsetBase;
 }
 .dmt-o-2 {
-  margin-left: 8%;
+  margin-left: $offsetBase * 2;
 }
 .dmt-o-3 {
-  margin-left: 12%;
+  margin-left: $offsetBase * 3;
 }
 .dmt-o-4 {
-  margin-left: 16%;
+  margin-left: $offsetBase * 4;
 }
 .dmt-u-1,
 .dmt-u-1-1,
@@ -138,7 +139,6 @@ this the same font stack that Normalize.css sets for the `body`.
   padding:0;
 //  margin:0;
   *zoom:1;
-  box-sizing: border-box;
 }
 
 .dmt-u-1-24 {

@@ -14,7 +14,7 @@
   -moz-border-radius: 4px;
   border-radius: 4px;
   @include transition(border-color 1s ease);
-  *padding: 0;
+//  *padding: 0;
 
   &.btn {
     padding:0 15px;
@@ -132,4 +132,25 @@ legend {
 }
 .label-large .form-action {
   padding-left:20.8em;
+}
+
+.input.input-addon {
+  @include border-right-radius(0);
+}
+span.addon {
+//  @extend .input;
+  height: 38px;
+
+  line-height: 38px;
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  border: 1px solid #c5c7ca;
+  margin: 0;
+  border-left:none;
+  padding: 0 1em;
+  background: lighten(#c5c7ca, 15%);
+
+  @include border-right-radius(4px)
+
 }

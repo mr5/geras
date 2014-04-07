@@ -19,6 +19,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-css-selectors": "~1.0.0",
     "grunt-pure-grids": "0.0.1",
-    "grunt-contrib-jade":"*"
+    "grunt-contrib-jade": "*",
+    "grunt-kmc": "^0.1.18"
   }
 }

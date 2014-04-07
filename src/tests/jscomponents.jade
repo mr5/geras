@@ -7,77 +7,63 @@ html
         include ../menu
         .wrapper.container
             .dmt-g-r
-                .dmt-u-1-5
+                .dmt-u-4-24
                     .menu
                         li.menu-item: a 对话框
                         li.menu-item: a 面包屑
                         li.menu-item: a 分页
                         li.menu-item: a 面板
 
-                .dmt-u-4-5
+                .dmt-u-19-24.dmt-o-1
                     .panel.panel-margin-left
                         .panel-heading: h3 对话框
                         .panel-body
                             p 点击以下按钮查看效果
-                            a.btn.btn-primary#J_dialog_alert alert对话框
-                            a.btn.btn-danger#J_dialog_confirm confirm对话框
-                            a.btn.btn-warning#J_dialog_prompt prompt对话框
-                            a.btn.btn-success#J_dialog_tip tip消息提示-success
-                            a.btn.btn-info#J_dialog_tip2 tip消息提示-info
-                            a.btn.btn-danger#J_dialog_tip3 tip消息提示3-danger
+                            a.btn.btn-primary#J_DialogAlert alert对话框
+                            a.btn.btn-danger#J_DialogConfirm confirm对话框
+                            a.btn.btn-warning#J_DialogPrompt prompt对话框
+                            a.btn.btn-success#J_DialogTip tip消息提示-success
+                            a.btn.btn-info#J_DialogTip2 tip消息提示-info
+                            a.btn.btn-danger#J_DialogTip3 tip消息提示3-danger
+                    .panel
+                        .panel-heading 富文本输入框，来自UEditor
+                        .panel-body
+                            //<div style="width:800px;margin:20px auto 40px;">
+                            //    <script type="text/plain" id="editor" style="width:100%;height:360px;"></script>
+                            //</div>
+                            //div(style="width:800px;margin:20px auto 40px;")
+                            textarea#J_RichTextarea.dmt-u-1(style="height:400px;")
+                    .panel
+                        .panel-heading popover组件
+                        .panel-body
+                            a.btn.btn-danger.J_DemeterPopover confirm popover left
+                            a.btn.btn-danger.J_DemeterPopover confirm popover right
+                            a.btn.btn-danger.btn-info#J_PromptPopoverLeft popover prompt
+                            a.btn.btn-danger#J_ConfirmPopoverLeft confirm popover bottom
+
+
+    //.dmt-popover.dmt-popover-left
+                            //    p
+                            //        |你确定要这样做吗？ &nbsp;&nbsp;&nbsp;
+                            //        a.btn.btn-danger.btn-xsmall 确认
+                            //        a.btn.btn-xsmall 取消
+                            //
+                            //    .dmt-arrow
+                            //        span.border-arrow.border-arrow-down
+                            //        span.border-arrow.border-arrow-up
+                            //.dmt-popover.dmt-popover-left
+                            //
+                            //    p
+                            //        |你确定要这样做吗？ &nbsp;&nbsp;&nbsp;
+                            //        input.input
+                            //        |&nbsp;&nbsp;&nbsp;
+                            //        a.btn.btn-info.btn-small 确认
+                            //        //a.btn.btn-small 取消
+                            //
+                            //    .dmt-arrow
+                            //        span.border-arrow.border-arrow-down
+                            //        span.border-arrow.border-arrow-up
+                            //|<div class="NG-Arrow"><span class="border-arrow border-arrow-down"></span><span class="border-arrow border-arrow-up"></span></div><a class="NG-Guide-Close" href="javascript:void(0);" title="关闭"></a></div>
 
 
 
-    script.
-            KISSY.config({
-                packages: [
-                    {
-                        // demeter包的基准路径
-                        base:'',
-                        name: "demeter",     //包名
-                        tag: "20130612",        //时间戳, 添加在动态脚本路径后面, 用于更新包内模块代码
-                        path: "../js/demeter",    //包对应路径, 相对路径指相对于当前页面路径
-                        charset: "utf-8",       //包里模块文件编码格式
-                        combine:false,          // 是否启用combine，需要web服务器容器支持 http://host/?a.js,b.js
-                        debug:true,              // 关闭调试模式后，调用的为 -min文件
-                        ignorePackageNameInUri:true
-
-            },{
-                        name:"kissAssets",
-                        tag:"",
-                        path:"http://g.tbcdn.cn/kissy/k/1.4.2/",
-                        charset:"utf-8",
-                        ignorePackageNameInUri:true,
-                        combine:false,
-                        debug:false
-                    }
-                ]
-            });
-            KISSY.ready(function(){
-                KISSY.use('node, demeter/ui/Dialog', function(S,Node, Dialog){
-                    Node.one('#J_dialog_alert').on('click', function(){
-                        Dialog.alert('你这样是不对的，骚年');
-                    });
-                    Node.one('#J_dialog_confirm').on('click', function(){
-                        Dialog.confirm('我是confrim对话框，你真要这么做吗？', function(){
-                            Dialog.alert('你点击了确定');
-                        }, function(){
-                            Dialog.alert('你点击了否');
-                        });
-                    });
-                    Node.one('#J_dialog_prompt').on('click', function(){
-                        Dialog.prompt('我是prompt对话框，请输入一些文本：', function(val){
-                                Dialog.alert('你输入了：' + val);
-                            });
-                    });
-                    Node.one('#J_dialog_tip').on('click', function(){
-                        Dialog.tip('你的操作已经成功！','success');
-                    });
-                    Node.one('#J_dialog_tip2').on('click', function(){
-                        Dialog.tip('这里是一些提示信息','info');
-                    });
-                    Node.one('#J_dialog_tip3').on('click', function(){
-                        Dialog.tip('操作失败！请重试！','error');
-                    });
-                 })
-            });

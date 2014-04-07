@@ -3,7 +3,6 @@ html
     head
         title 表单测试 - Demeter CSS UI Set
         include ../head
-
     body
         include ../menu
         .panel.container.wrapper
@@ -25,7 +24,8 @@ html
                             legend=legend
                             .form-control
                                 label.label 账号
-                                input.input.input-1-3(type="text", placeholder="请输入账号")
+                                input.input.input-1-3.input-addon(type="text", placeholder="请输入账号")
+                                span.addon 模糊匹配
                             .form-control
                                 label.label 密码
                                 input.input.input-1-3(type="password", placeholder="请输入密码")

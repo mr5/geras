@@ -259,12 +259,43 @@ grunt.initConfig({
 
     observe: {
         src: {
-            files: 'src/**/css/*.css',
+            files: 'src/**.css',
             tasks: ['test', 'suppress', 'build'],
 
             options: {
                 interrupt: true
             }
+        }
+    }
+    ,
+    // -- KISSY Module Compile Config -------------------------------------------------
+
+    kmc: {
+        options: {
+            packages: [
+                {
+                    name: '<%= pkg.name %>',
+                    path: '../',
+                    charset:'utf-8',
+                    ignorePackageNameInUri:true
+                }
+            ],
+            depFilePath:'build/mods.js',
+            comboOnly:false,// 不要静态合并
+            fixModuleName:true,// 补全模块名称
+            comboMap:true
+        },
+
+        main: {
+            files: [
+                {
+                    // 这里指定项目根目录下所有文件为入口文件
+                    expand: true,
+                    cwd: 'src/',
+                    src: [ '**/*.js', '!Gruntfile.js'],
+                    dest: 'build/'
+                }
+            ]
         }
     }
 });
@@ -281,7 +312,7 @@ grunt.loadNpmTasks('grunt-contrib-compress');
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-css-selectors');
 grunt.loadNpmTasks('grunt-contrib-jade');
-//grunt.loadNpmTasks('grunt-pure-grids');
+grunt.loadNpmTasks('grunt-kmc');
 
 // Local tasks.
 grunt.loadTasks('tasks/');
@@ -290,7 +321,7 @@ grunt.loadTasks('tasks/');
 grunt.registerTask('default', ['build']);
 
 //grunt.registerTask('import');
-//grunt.registerTask('test', ['csslint']);
+grunt.registerTask('test', ['csslint']);
 grunt.registerTask('build', [
     'clean:build',
     'copy:build',
@@ -300,7 +331,8 @@ grunt.registerTask('build', [
     'css_selectors:base',
     'cssmin',
     'jade',
-    'license'
+    'license',
+    'kmc'
 ]);
 
 // Makes the `watch` task run a build first.

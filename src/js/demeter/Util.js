@@ -13,6 +13,13 @@ KISSY.add('demeter/Util',function(S){
          */
         current_unixtime:function(){
             return Math.round(new Date().getTime()/1000);
+        },
+        objectLength:function(obj) {
+            var length = 0;
+            for(var i in obj) {
+                length++;
+            }
+            return length;
         }
     }
 });
