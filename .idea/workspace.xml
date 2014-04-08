@@ -2,102 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/addimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/alldeletebtnhoverskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/alldeletebtnupskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/bface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/caret.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/images/center_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/cface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/image/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/deletedisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/deleteenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/fface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/formula/images/formula.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/imglabel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/images/imglabel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/jxface2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/images/left_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/listbackground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/images/none_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/pop-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/images/right_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/rotateleftdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/rotateleftenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/rotaterightdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/rotaterightenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/tface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/image/images/upload1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/image/images/upload2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/images/videologo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/wface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/images/yface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/Anim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/Popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/emotion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/emotion/emotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/formula/formula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/formula/formula.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/formula/formula.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/image/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/jquery-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/link/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/css/umeditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" afterPath="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/Util.js" afterPath="$PROJECT_DIR$/src/js/demeter/Util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/buttons-core.scss" afterPath="$PROJECT_DIR$/src/css/buttons-core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/buttons.css" afterPath="$PROJECT_DIR$/src/css/buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.html" afterPath="$PROJECT_DIR$/src/tests/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/buttons.scss" afterPath="$PROJECT_DIR$/src/css/buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components.html" afterPath="$PROJECT_DIR$/src/tests/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components.jade" afterPath="$PROJECT_DIR$/src/tests/components.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter-demo.js" afterPath="$PROJECT_DIR$/src/js/demeter-demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" afterPath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms.css" afterPath="$PROJECT_DIR$/src/css/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.html" afterPath="$PROJECT_DIR$/src/tests/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.jade" afterPath="$PROJECT_DIR$/src/tests/forms.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms.scss" afterPath="$PROJECT_DIR$/src/css/forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grids-core.css" afterPath="$PROJECT_DIR$/src/css/grids-core.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/grids-core.scss" afterPath="$PROJECT_DIR$/src/css/grids-core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/grids.html" afterPath="$PROJECT_DIR$/src/tests/grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.html" afterPath="$PROJECT_DIR$/src/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.jade" afterPath="$PROJECT_DIR$/src/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/jscomponents.jade" afterPath="$PROJECT_DIR$/src/tests/jscomponents.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/menus.html" afterPath="$PROJECT_DIR$/src/tests/menus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/menus.jade" afterPath="$PROJECT_DIR$/src/tests/menus.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mixins.scss" afterPath="$PROJECT_DIR$/src/mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/tables.html" afterPath="$PROJECT_DIR$/src/tests/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/typo.html" afterPath="$PROJECT_DIR$/src/tests/typo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms-r.css" afterPath="$PROJECT_DIR$/src/css/forms-r.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms-r.scss" afterPath="$PROJECT_DIR$/src/css/forms-r.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -121,15 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5244" column="75" selection-start="217413" selection-end="217413" vertical-scroll-proportion="0.0" vertical-offset="78489" max-vertical-offset="164115">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="grids-core.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/grids-core.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,25 +39,16 @@
       <file leaf-file-name="demeter-ui.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/demeter/demeter-ui.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="3" selection-start="0" selection-end="6789" vertical-scroll-proportion="-1.886076" vertical-offset="2461" max-vertical-offset="4995">
+            <state line="187" column="19" selection-start="4182" selection-end="4182" vertical-scroll-proportion="15.13924" vertical-offset="4001" max-vertical-offset="4995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demeter-min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="54" selection-start="3396" selection-end="3396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="3" selection-start="653" selection-end="653" vertical-scroll-proportion="0.8373786" vertical-offset="0" max-vertical-offset="465">
+            <state line="23" column="3" selection-start="653" selection-end="653" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -184,30 +72,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttons-core.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
+      <file leaf-file-name="demeter-min.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="-6.0416665" vertical-offset="20" max-vertical-offset="930">
+            <state line="13" column="67" selection-start="0" selection-end="20425" vertical-scroll-proportion="0.28467155" vertical-offset="0" max-vertical-offset="685">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Util.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/demeter/Util.js">
+      <file leaf-file-name="forms.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="0" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="28" column="16" selection-start="580" selection-end="580" vertical-scroll-proportion="-0.0" vertical-offset="420" max-vertical-offset="2415">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/demeter/jquery.js">
+      <file leaf-file-name="forms-r.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/forms-r.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="521" column="57" selection-start="18197" selection-end="18197" vertical-scroll-proportion="0.0" vertical-offset="7674" max-vertical-offset="155220">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttons-core.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -231,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/css/grids-r.css" />
-        <option value="$PROJECT_DIR$/src/css/grids-core.css" />
         <option value="$PROJECT_DIR$/HISTORY.md" />
         <option value="$PROJECT_DIR$/src/css/menus.scss" />
         <option value="$PROJECT_DIR$/src/tests/grids.jade" />
@@ -282,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/css/_normalize.scss" />
         <option value="$PROJECT_DIR$/src/css/buttons-core.scss" />
         <option value="$PROJECT_DIR$/src/css/grids-core.scss" />
+        <option value="$PROJECT_DIR$/src/css/forms-r.scss" />
+        <option value="$PROJECT_DIR$/build/demeter-min.css" />
       </list>
     </option>
   </component>
@@ -350,6 +245,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,17 +420,22 @@
       <created>1396105345891</created>
       <updated>1396105345891</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG">
+      <created>1396898360947</created>
+      <updated>1396898360947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="818" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124736" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -500,7 +446,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -546,7 +491,8 @@
     <MESSAGE value="增加了3个偏移样式：.dmt-o-1 .dmt-o-2 .dmt-o-3 用于方便布局。&#10;增加Dialog组件" />
     <MESSAGE value="增加了3个偏移样式：.dmt-o-1 .dmt-o-2 .dmt-o-3 用于方便布局。&#10;增加Dialog组件&#10;menu的响应化改为需要手动指定menu-r" />
     <MESSAGE value="增加了.btn-white&#10;修改了README文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了.btn-white&#10;修改了README文件" />
+    <MESSAGE value="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -608,7 +554,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
+        <state line="36" column="27" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/buttons-min.css">
@@ -625,7 +573,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Anim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+        <state line="8" column="3" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/en.js">
@@ -660,19 +610,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="1225" selection-end="1228" vertical-scroll-proportion="-10.384615" vertical-offset="165" max-vertical-offset="2250" />
+        <state line="29" column="57" selection-start="1225" selection-end="1228" vertical-scroll-proportion="-10.384615" vertical-offset="165" max-vertical-offset="2250">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/zh-cn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="18" selection-start="2588" selection-end="2601" vertical-scroll-proportion="-8.423077" vertical-offset="471" max-vertical-offset="2325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2415">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/components.jade">
@@ -692,13 +637,6 @@
     <entry file="file://$PROJECT_DIR$/src/menu.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="76" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="8" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.88941175" vertical-offset="762" max-vertical-offset="3900">
           <folding />
         </state>
       </provider>
@@ -853,7 +791,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="9" selection-start="0" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="-6.0416665" vertical-offset="20" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/grids-core.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="1" selection-start="2313" selection-end="2313" vertical-scroll-proportion="-13.75" vertical-offset="885" max-vertical-offset="4560">
@@ -900,23 +831,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="3" selection-start="653" selection-end="653" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/demeter/demeter-ui.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="3" selection-start="0" selection-end="6789" vertical-scroll-proportion="-1.886076" vertical-offset="2461" max-vertical-offset="4995">
+        <state line="187" column="19" selection-start="4182" selection-end="4182" vertical-scroll-proportion="15.13924" vertical-offset="4001" max-vertical-offset="4995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="7" selection-start="2971" selection-end="2971" vertical-scroll-proportion="0.34493193" vertical-offset="1527" max-vertical-offset="3900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/forms-r.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="54" selection-start="3396" selection-end="3396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="653" selection-end="653" vertical-scroll-proportion="0.8373786" vertical-offset="0" max-vertical-offset="465">
+        <state line="13" column="67" selection-start="0" selection-end="20425" vertical-scroll-proportion="0.28467155" vertical-offset="0" max-vertical-offset="685">
           <folding />
         </state>
       </provider>

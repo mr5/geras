@@ -35,7 +35,10 @@
   .form-control .btn, fieldset .btn, form .btn {
     display: block;
     width: 100%;
-    margin-top: 1em; }
+    margin-top: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
 
   .form-action {
     padding: 0 !important; } }
