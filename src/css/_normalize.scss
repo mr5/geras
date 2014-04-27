@@ -7,15 +7,14 @@
 // Normalize.scss settings
 // =============================================================================
 
-
 // Set to true if you want to add support for IE6 and IE7
 // Notice: setting to true might render some elements
 // slightly differently than when set to false
-$legacy_support_for_ie: true !default; // Used also in Compass
-
+$legacy_support_for_ie: true !default;
+// Used also in Compass
 
 // Set the default font family here so you don't have to override it later
-$normalized_font_family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif !default;
+$normalized_font_family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif !default;
 
 $normalize_headings: true !default;
 
@@ -105,7 +104,7 @@ html {
   @if $legacy_support_for_ie {
     font-size: 100%; // 1
   }
-  font-size:12px;
+  font-size: 12px;
   background: $background;
   color: $color;
   -webkit-text-size-adjust: 100%; // 2
@@ -391,7 +390,7 @@ figure {
 // Define consistent border, margin, and padding
 
 fieldset {
-border:none;
+  border: none;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -460,7 +459,7 @@ input[type="submit"] {
   -webkit-appearance: button; // 2
   cursor: pointer; // 3
   @if $legacy_support_for_ie {
-    *overflow: visible;  // 4
+    *overflow: visible; // 4
   }
 }
 

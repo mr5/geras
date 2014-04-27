@@ -1,0 +1,40 @@
+.pagination {
+  margin: 1em 0;
+  a, span {
+    display: inline-block;
+    height: 1.7em;
+    padding: 5px 10px;
+    margin: 0;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: #e6e9ed;
+    line-height: 1.7em;
+    vertical-align: middle;
+    float: left;
+  }
+  a {
+    color: #656d78;
+    &:hover {
+      background: #f5f7fa;
+      text-decoration: none;
+    }
+  }
+  .current {
+    background: $color-primary;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: $color-primary;
+    pointer-events: none;
+    color: #fff;
+  }
+  .next {
+    @include border-right-radius(5px);
+  }
+  .prev {
+    @include border-left-radius(5px);
+    border-left-width: 1px;
+  }
+  .ellipsis {
+    pointer-events: none;
+  }
+}

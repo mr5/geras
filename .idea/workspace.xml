@@ -2,8 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms-r.css" afterPath="$PROJECT_DIR$/src/css/forms-r.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/forms-r.scss" afterPath="$PROJECT_DIR$/src/css/forms-r.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/demeter-nr.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/demeter.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_breadcrumb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_forms-r.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_grids-core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_menus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_panels-r.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_panels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/buttons.bak.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/grids-r.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/typo.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/animations.css" afterPath="$PROJECT_DIR$/src/css/_animations.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/animations.scss" afterPath="$PROJECT_DIR$/src/css/_animations.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/base.scss" afterPath="$PROJECT_DIR$/src/css/_base.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/breadcrumb.scss" afterPath="$PROJECT_DIR$/src/css/_breadcrumb.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/buttons-core.scss" afterPath="$PROJECT_DIR$/src/css/_buttons-core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/buttons.scss" afterPath="$PROJECT_DIR$/src/css/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/forms-r.scss" afterPath="$PROJECT_DIR$/src/css/_forms-r.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/forms.scss" afterPath="$PROJECT_DIR$/src/css/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/grids-core.scss" afterPath="$PROJECT_DIR$/src/css/_grids-core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/menus-r.css" afterPath="$PROJECT_DIR$/src/css/_menus-r.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/menus.scss" afterPath="$PROJECT_DIR$/src/css/_menus.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/pagination.css" afterPath="$PROJECT_DIR$/src/css/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/panels-r.scss" afterPath="$PROJECT_DIR$/src/css/_panels-r.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/panels.scss" afterPath="$PROJECT_DIR$/src/css/_panels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/tables.css" afterPath="$PROJECT_DIR$/src/css/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/tests.css" afterPath="$PROJECT_DIR$/src/tests/tests.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/tests.scss" afterPath="$PROJECT_DIR$/src/tests/tests.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/typo.scss" afterPath="$PROJECT_DIR$/src/css/_typo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_normalize.scss" afterPath="$PROJECT_DIR$/src/css/_normalize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.html" afterPath="$PROJECT_DIR$/src/tests/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.jade" afterPath="$PROJECT_DIR$/src/tests/buttons.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components.html" afterPath="$PROJECT_DIR$/src/tests/components.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" afterPath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.html" afterPath="$PROJECT_DIR$/src/tests/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/grids.html" afterPath="$PROJECT_DIR$/src/tests/grids.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.html" afterPath="$PROJECT_DIR$/src/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.jade" afterPath="$PROJECT_DIR$/src/head.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/menus.html" afterPath="$PROJECT_DIR$/src/tests/menus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/tables.html" afterPath="$PROJECT_DIR$/src/tests/tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/typo.html" afterPath="$PROJECT_DIR$/src/tests/typo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/typo.jade" afterPath="$PROJECT_DIR$/src/tests/typo.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/variables.scss" afterPath="$PROJECT_DIR$/src/variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -27,28 +77,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grids-core.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/grids-core.scss">
+      <file leaf-file-name="buttons.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/buttons.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="1" selection-start="2313" selection-end="2313" vertical-scroll-proportion="-13.75" vertical-offset="885" max-vertical-offset="4560">
+            <state line="40" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demeter-ui.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/demeter/demeter-ui.scss">
+      <file leaf-file-name="demeter-min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="19" selection-start="4182" selection-end="4182" vertical-scroll-proportion="15.13924" vertical-offset="4001" max-vertical-offset="4995">
+            <state line="9" column="37" selection-start="0" selection-end="21555" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="demeter.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/demeter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="3" selection-start="653" selection-end="653" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
+            <state line="21" column="10" selection-start="292" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_breadcrumb.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_breadcrumb.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="9" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="14" selection-start="475" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_typo.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_typo.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="295" column="1" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="5460">
               <folding />
             </state>
           </provider>
@@ -57,52 +143,16 @@
       <file leaf-file-name="_normalize.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/_normalize.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="495" column="2" selection-start="10863" selection-end="10863" vertical-scroll-proportion="-5.7083335" vertical-offset="7288" max-vertical-offset="8085">
+            <state line="116" column="7" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="8070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/base.css">
+      <file leaf-file-name="_grids-r.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/_grids-r.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="2" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.0" vertical-offset="3027" max-vertical-offset="4185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demeter-min.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="67" selection-start="0" selection-end="20425" vertical-scroll-proportion="0.28467155" vertical-offset="0" max-vertical-offset="685">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/forms.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="16" selection-start="580" selection-end="580" vertical-scroll-proportion="-0.0" vertical-offset="420" max-vertical-offset="2415">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms-r.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/forms-r.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buttons-core.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="11" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="930">
+            <state line="99" column="24" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.8132353" vertical-offset="932" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
@@ -126,33 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/HISTORY.md" />
-        <option value="$PROJECT_DIR$/src/css/menus.scss" />
-        <option value="$PROJECT_DIR$/src/tests/grids.jade" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/css/prettify.css" />
-        <option value="$PROJECT_DIR$/build/base-context.css" />
-        <option value="$PROJECT_DIR$/src/css/tests.scss" />
-        <option value="$PROJECT_DIR$/src/css/breadcrumb.scss" />
-        <option value="$PROJECT_DIR$/src/css/demeter-ui.scss" />
-        <option value="$PROJECT_DIR$/src/menu.jade" />
-        <option value="$PROJECT_DIR$/src/css/typo.scss" />
-        <option value="$PROJECT_DIR$/src/css/tables.css" />
-        <option value="$PROJECT_DIR$/src/tests/buttons.jade" />
-        <option value="$PROJECT_DIR$/src/js/demeter/test.js" />
-        <option value="$PROJECT_DIR$/src/css/menus-r.css" />
-        <option value="$PROJECT_DIR$/src/css/panels-r.scss" />
-        <option value="$PROJECT_DIR$/src/css/panels.scss" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/Anim.js" />
-        <option value="$PROJECT_DIR$/build/buttons-min.css" />
-        <option value="$PROJECT_DIR$/src/tests/menus.jade" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/UEditor.js" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditorConfig.js" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditor.js" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditor/umeditorConfig.js" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditor/umeditor.js" />
-        <option value="$PROJECT_DIR$/src/js/demeter/ui/jquery-adapter.js" />
         <option value="$PROJECT_DIR$/src/js/demeter/jquery.js" />
         <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditor/index.js" />
         <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditor/config.js" />
@@ -164,26 +187,53 @@
         <option value="$PROJECT_DIR$/src/css/forms.scss" />
         <option value="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
         <option value="$PROJECT_DIR$/src/tests/test.jade" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/src/head.jade" />
-        <option value="$PROJECT_DIR$/src/css/buttons.scss" />
         <option value="$PROJECT_DIR$/src/tests/jscomponents.jade" />
         <option value="$PROJECT_DIR$/src/js/demeter/ui/Popover.js" />
         <option value="$PROJECT_DIR$/src/js/demeter-demo.js" />
         <option value="$PROJECT_DIR$/src/js/demeter/Util.js" />
-        <option value="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
-        <option value="$PROJECT_DIR$/src/css/_normalize.scss" />
         <option value="$PROJECT_DIR$/src/css/buttons-core.scss" />
         <option value="$PROJECT_DIR$/src/css/grids-core.scss" />
         <option value="$PROJECT_DIR$/src/css/forms-r.scss" />
         <option value="$PROJECT_DIR$/build/demeter-min.css" />
+        <option value="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
+        <option value="$PROJECT_DIR$/src/css/badge.scss" />
+        <option value="$PROJECT_DIR$/src/css/buttons.scss" />
+        <option value="$PROJECT_DIR$/src/css/_forms.scss" />
+        <option value="$PROJECT_DIR$/src/css/_forms-r.scss" />
+        <option value="$PROJECT_DIR$/src/css/_grids-r.scss" />
+        <option value="$PROJECT_DIR$/src/css/_menus.scss" />
+        <option value="$PROJECT_DIR$/src/css/_pagination.scss" />
+        <option value="$PROJECT_DIR$/src/css/_panels-r.scss" />
+        <option value="$PROJECT_DIR$/src/css/_panels.scss" />
+        <option value="$PROJECT_DIR$/src/css/_menus-r.scss" />
+        <option value="$PROJECT_DIR$/src/css/_buttons-core.scss" />
+        <option value="$PROJECT_DIR$/src/css/_animations.scss" />
+        <option value="$PROJECT_DIR$/index.jade" />
+        <option value="$PROJECT_DIR$/src/css/_tables.scss" />
+        <option value="$PROJECT_DIR$/src/css/typo.scss" />
+        <option value="$PROJECT_DIR$/src/css/_base.scss" />
+        <option value="$PROJECT_DIR$/src/css/_badge.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/src/css/_grids-core.scss" />
+        <option value="$PROJECT_DIR$/build/demeter-nr-min.css" />
+        <option value="$PROJECT_DIR$/src/css/demeter.scss" />
+        <option value="$PROJECT_DIR$/src/css/demeter-nr.scss" />
+        <option value="$PROJECT_DIR$/src/css/_utilities.scss" />
+        <option value="$PROJECT_DIR$/src/tests/typo.jade" />
+        <option value="$PROJECT_DIR$/src/head.jade" />
+        <option value="$PROJECT_DIR$/src/tests/tests.scss" />
+        <option value="$PROJECT_DIR$/src/variables.scss" />
+        <option value="$PROJECT_DIR$/src/tests/buttons.jade" />
+        <option value="$PROJECT_DIR$/src/css/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/css/_typo.scss" />
+        <option value="$PROJECT_DIR$/src/css/_normalize.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="818" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -248,52 +298,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -302,8 +306,8 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yeoman-test" />
+    <property name="options.lastSelected" value="settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ionic-master" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -322,14 +326,22 @@
       <recent name="$PROJECT_DIR$/src/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests" />
+      <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/js/demeter/ui/umeditor" />
       <recent name="$PROJECT_DIR$/src/js/demeter/images" />
       <recent name="$PROJECT_DIR$/src/js/demeter" />
-      <recent name="$PROJECT_DIR$/src/css" />
-      <recent name="$PROJECT_DIR$/src/tests" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -340,23 +352,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -424,31 +428,35 @@
       <created>1396898360947</created>
       <updated>1396898360947</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修复了表单中的a标签按钮在响应式模式下的一个BUG">
+      <created>1396958809072</created>
+      <updated>1396958809072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="818" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="824" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124736" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17596567" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32506886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -466,9 +474,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124736" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32506886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -492,390 +500,283 @@
     <MESSAGE value="增加了3个偏移样式：.dmt-o-1 .dmt-o-2 .dmt-o-3 用于方便布局。&#10;增加Dialog组件&#10;menu的响应化改为需要手动指定menu-r" />
     <MESSAGE value="增加了.btn-white&#10;修改了README文件" />
     <MESSAGE value="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG" />
+    <MESSAGE value="修复了表单中的a标签按钮在响应式模式下的一个BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了表单中的a标签按钮在响应式模式下的一个BUG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/panels.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/grids-core.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/grids-r.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="2" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/menus-r.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="20" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/panels-r.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/panels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="28" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/buttons-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/menus.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Anim.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/en/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="25" selection-start="2729" selection-end="2729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/jquery-adapter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="14" selection-start="9300" selection-end="9300" vertical-scroll-proportion="-17.76923" vertical-offset="3723" max-vertical-offset="4425">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/map/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/dialogs/video/video.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.1833811" vertical-offset="262" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="1225" selection-end="1228" vertical-scroll-proportion="-10.384615" vertical-offset="165" max-vertical-offset="2250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/lang/zh-cn/zh-cn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="2588" selection-end="2601" vertical-scroll-proportion="-8.423077" vertical-offset="471" max-vertical-offset="2325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/components.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/css/umeditor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="11670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="76" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/forms.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/mods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="21" selection-start="8529" selection-end="8529" vertical-scroll-proportion="0.0" vertical-offset="4413" max-vertical-offset="5340">
-          <folding>
-            <marker date="1396596068000" expanded="true" signature="-1:-1" placeholder="{&quot;depFilePath&quot;: 'build/mods.js'...}" />
-            <marker date="1396596068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396596068000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1396596068000" expanded="true" signature="-1:-1" placeholder="{&quot;expand&quot;: true...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/demeter/ui/build/mods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/build/mods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/js/demeter/build/mods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/js/demeter/ui/umeditor/build/mods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="2" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.044444446" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/demeter/Util.js">
+    <entry file="file://$PROJECT_DIR$/build/js/demeter/ui/build/mods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/demeter/ui/umeditor/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="70" selection-end="70" vertical-scroll-proportion="0.20044543" vertical-offset="0" max-vertical-offset="164250">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/head.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="53" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/demeter-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-4.1447663" vertical-offset="2311" max-vertical-offset="3825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="16" selection-start="1285" selection-end="1285" vertical-scroll-proportion="-13.875" vertical-offset="1092" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Dialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="37" selection-start="6443" selection-end="6443" vertical-scroll-proportion="0.0" vertical-offset="3500" max-vertical-offset="4185">
-          <folding>
-            <marker date="1396436600000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/jscomponents.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="35" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1125">
-          <folding>
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{&quot;align&quot;: 'left'...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1396796621000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter-demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="29" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-10.923077" vertical-offset="946" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/Popover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="75" selection-start="0" selection-end="11481" vertical-scroll-proportion="-8.038462" vertical-offset="4381" max-vertical-offset="5175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/Util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="0" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="521" column="57" selection-start="18197" selection-end="18197" vertical-scroll-proportion="0.0" vertical-offset="7674" max-vertical-offset="155220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/demeter/ui/umeditor/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5244" column="75" selection-start="217413" selection-end="217413" vertical-scroll-proportion="0.0" vertical-offset="78489" max-vertical-offset="164115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="495" column="2" selection-start="10863" selection-end="10863" vertical-scroll-proportion="-5.7083335" vertical-offset="7288" max-vertical-offset="8085">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="2" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.0" vertical-offset="3027" max-vertical-offset="4185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/grids-core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="1" selection-start="2313" selection-end="2313" vertical-scroll-proportion="-13.75" vertical-offset="885" max-vertical-offset="4560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="653" selection-end="653" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2415">
-          <folding />
-        </state>
+        <state line="2" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/demeter/demeter-ui.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="19" selection-start="4182" selection-end="4182" vertical-scroll-proportion="15.13924" vertical-offset="4001" max-vertical-offset="4995">
+        <state line="131" column="16" selection-start="0" selection-end="6805" vertical-scroll-proportion="0.0" vertical-offset="1770" max-vertical-offset="4995" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="76" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/forms.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="2745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_forms-r.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="486" selection-end="486" vertical-scroll-proportion="-12.5" vertical-offset="15" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_labels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="393" selection-end="393" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="386" selection-end="386" vertical-scroll-proportion="-11.25" vertical-offset="15" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_panels-r.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="114" selection-end="114" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="351" selection-end="351" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_menus-r.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_buttons-core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="29" selection-start="730" selection-end="730" vertical-scroll-proportion="-17.5" vertical-offset="195" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_animations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="60270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/demeter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="23190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/demeter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="813" column="14" selection-start="14504" selection-end="14504" vertical-scroll-proportion="-15.088889" vertical-offset="22380" max-vertical-offset="23055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/demeter-nr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1381" column="14" selection-start="25470" selection-end="25470" vertical-scroll-proportion="0.59169054" vertical-offset="20302" max-vertical-offset="21000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/prettify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_badge.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="462" selection-end="462" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/prettify-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/prettify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/mods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/demeter-nr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="11430" max-vertical-offset="21390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_grids-core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/demeter-nr-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.092307694" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/demeter-nr.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="254" selection-end="254" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_utilities.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="332" selection-end="332" vertical-scroll-proportion="-10.25" vertical-offset="24" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/typo.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/head.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="10" selection-start="7521" selection-end="7521" vertical-scroll-proportion="-10.737328" vertical-offset="10725" max-vertical-offset="11550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/tests.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="26" selection-start="1541" selection-end="1541" vertical-scroll-proportion="-23.708334" vertical-offset="841" max-vertical-offset="1515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/tests.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="16" selection-start="1488" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="23" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/demeter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="292" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_breadcrumb.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="7" selection-start="2971" selection-end="2971" vertical-scroll-proportion="0.34493193" vertical-offset="1527" max-vertical-offset="3900">
-          <folding />
-        </state>
+        <state line="130" column="1" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.69402987" vertical-offset="1671" max-vertical-offset="3900" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/buttons-core.scss">
+    <entry file="file://$PROJECT_DIR$/src/tests/buttons.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/forms-r.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="40" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/demeter-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="0" selection-end="20425" vertical-scroll-proportion="0.28467155" vertical-offset="0" max-vertical-offset="685">
+        <state line="9" column="37" selection-start="0" selection-end="21555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="9" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_typo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="1" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="5460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="14" selection-start="475" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="7" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="8070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="18" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.50660795" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="337" column="23" selection-start="9086" selection-end="9086" vertical-scroll-proportion="0.5814978" vertical-offset="4659" max-vertical-offset="5340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_grids-r.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="24" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.8132353" vertical-offset="932" max-vertical-offset="1635">
           <folding />
         </state>
       </provider>

@@ -326,7 +326,7 @@ grunt.registerTask('build', [
     'clean:build',
     'copy:build',
 //    'pure_grids',
-    'concat:build',
+//    'concat:build',
     'clean:build_res',
     'css_selectors:base',
     'cssmin',

@@ -1,0 +1,20 @@
+.badge {
+//  @include badge-style($badge-default-bg, $badge-default-text);
+//  z-index: $z-index-badge;
+  background: $color-primary;
+  color: #fff;
+  display: inline-block;
+  padding: 3px 8px;
+  min-width: 10px;
+  @include border-radius(24px);
+  vertical-align: baseline;
+  text-align: center;
+  white-space: nowrap;
+//  font-weight: $badge-font-weight;
+//  font-size: $badge-font-size;
+//  line-height: $badge-line-height;
+
+  &:empty {
+    display: none;
+  }
+}

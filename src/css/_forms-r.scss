@@ -1,0 +1,50 @@
+@import "../mixins";
+
+@media only screen and (max-width: 480px) {
+  button[type="submit"] {
+    margin: 0.7em 0 0;
+  }
+
+  .input:not([type]),
+  .input[type="text"],
+  .input[type="password"],
+  .input[type="email"],
+  .input[type="url"],
+  .input[type="date"],
+  .input[type="month"],
+  .input[type="time"],
+  .input[type="datetime"],
+  .input[type="datetime-local"],
+  .input[type="week"],
+  .input[type="number"],
+  .input[type="search"],
+  .input[type="tel"],
+  .input[type="color"],
+  .label {
+    margin-bottom: 0.3em;
+    display: block;
+    width: 100%;
+  }
+  legend {
+    padding-left: 0.1em;
+  }
+  .label-xsmall .label, .label-small .label, .label-normal .label, .label-large .label {
+    width: 100% !important;
+    text-align: left !important;
+
+  }
+  .form-control {
+    padding-left: 0.1em;
+  }
+  .form-control .btn, fieldset .btn, form .btn {
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    @include box-sizing(border-box);
+
+  }
+  .form-action {
+    padding: 0 !important;
+  }
+
+}
