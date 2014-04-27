@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_grids-r.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/breadcrumb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/forms-r.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/grids-core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/menus.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/panels-r.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/panels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -425,7 +417,11 @@
       <created>1398616305246</created>
       <updated>1398616305246</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="scss源代码优化&#10;">
+      <created>1398616356990</created>
+      <updated>1398616356990</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -495,7 +491,8 @@
     <MESSAGE value="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG" />
     <MESSAGE value="修复了表单中的a标签按钮在响应式模式下的一个BUG" />
     <MESSAGE value="scss源代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="scss源代码优化" />
+    <MESSAGE value="scss源代码优化&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="scss源代码优化&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -639,11 +636,6 @@
     <entry file="file://$PROJECT_DIR$/build/demeter-nr-min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="32" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.092307694" vertical-offset="0" max-vertical-offset="650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
