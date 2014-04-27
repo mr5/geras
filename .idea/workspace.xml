@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mixins.scss" afterPath="$PROJECT_DIR$/src/mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -98,10 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_grids-r.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_grids-r.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/_grids-r.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="24" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.8132353" vertical-offset="932" max-vertical-offset="1635">
+            <state line="90" column="24" selection-start="2140" selection-end="2140" vertical-scroll-proportion="-17.416666" vertical-offset="932" max-vertical-offset="1635">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixins.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="245" column="2" selection-start="8725" selection-end="8725" vertical-scroll-proportion="0.6506211" vertical-offset="3256" max-vertical-offset="3900">
               <folding />
             </state>
           </provider>
@@ -131,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/js/demeter/ui/umeditor/themes/default/css/umeditor.css" />
         <option value="$PROJECT_DIR$/yeoman-test/test.html" />
         <option value="$PROJECT_DIR$/src/tests/components.jade" />
-        <option value="$PROJECT_DIR$/src/mixins.scss" />
         <option value="$PROJECT_DIR$/src/tests/forms.jade" />
         <option value="$PROJECT_DIR$/src/css/forms.scss" />
         <option value="$PROJECT_DIR$/src/js/demeter/ui/Dialog.js" />
@@ -176,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/css/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/css/_typo.scss" />
         <option value="$PROJECT_DIR$/src/css/_normalize.scss" />
+        <option value="$PROJECT_DIR$/src/mixins.scss" />
       </list>
     </option>
   </component>
@@ -421,7 +430,11 @@
       <created>1398616356990</created>
       <updated>1398616356990</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="scss源代码优化&#10;">
+      <created>1398616442611</created>
+      <updated>1398616442611</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -699,11 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="1" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.69402987" vertical-offset="1671" max-vertical-offset="3900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/buttons.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="960">
@@ -762,7 +770,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_grids-r.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="24" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.8132353" vertical-offset="932" max-vertical-offset="1635">
+        <state line="90" column="24" selection-start="2140" selection-end="2140" vertical-scroll-proportion="-17.416666" vertical-offset="932" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="2" selection-start="8725" selection-end="8725" vertical-scroll-proportion="0.6506211" vertical-offset="3256" max-vertical-offset="3900">
           <folding />
         </state>
       </provider>
