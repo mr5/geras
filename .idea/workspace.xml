@@ -2,58 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/demeter-nr.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/demeter.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_breadcrumb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_forms-r.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_grids-core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_menus.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_panels-r.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/_panels.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/buttons.bak.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/grids-r.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/typo.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/animations.css" afterPath="$PROJECT_DIR$/src/css/_animations.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/animations.scss" afterPath="$PROJECT_DIR$/src/css/_animations.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/base.scss" afterPath="$PROJECT_DIR$/src/css/_base.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/breadcrumb.scss" afterPath="$PROJECT_DIR$/src/css/_breadcrumb.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/buttons-core.scss" afterPath="$PROJECT_DIR$/src/css/_buttons-core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/buttons.scss" afterPath="$PROJECT_DIR$/src/css/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/forms-r.scss" afterPath="$PROJECT_DIR$/src/css/_forms-r.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/forms.scss" afterPath="$PROJECT_DIR$/src/css/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/grids-core.scss" afterPath="$PROJECT_DIR$/src/css/_grids-core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/menus-r.css" afterPath="$PROJECT_DIR$/src/css/_menus-r.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/menus.scss" afterPath="$PROJECT_DIR$/src/css/_menus.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/pagination.css" afterPath="$PROJECT_DIR$/src/css/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/panels-r.scss" afterPath="$PROJECT_DIR$/src/css/_panels-r.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/panels.scss" afterPath="$PROJECT_DIR$/src/css/_panels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/tables.css" afterPath="$PROJECT_DIR$/src/css/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/tests.css" afterPath="$PROJECT_DIR$/src/tests/tests.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/tests.scss" afterPath="$PROJECT_DIR$/src/tests/tests.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/typo.scss" afterPath="$PROJECT_DIR$/src/css/_typo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_normalize.scss" afterPath="$PROJECT_DIR$/src/css/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.html" afterPath="$PROJECT_DIR$/src/tests/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/buttons.jade" afterPath="$PROJECT_DIR$/src/tests/buttons.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components.html" afterPath="$PROJECT_DIR$/src/tests/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" afterPath="$PROJECT_DIR$/src/js/demeter/demeter-ui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/forms.html" afterPath="$PROJECT_DIR$/src/tests/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/grids.html" afterPath="$PROJECT_DIR$/src/tests/grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.html" afterPath="$PROJECT_DIR$/src/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/head.jade" afterPath="$PROJECT_DIR$/src/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/menus.html" afterPath="$PROJECT_DIR$/src/tests/menus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/tables.html" afterPath="$PROJECT_DIR$/src/tests/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/typo.html" afterPath="$PROJECT_DIR$/src/tests/typo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/typo.jade" afterPath="$PROJECT_DIR$/src/tests/typo.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/variables.scss" afterPath="$PROJECT_DIR$/src/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/_grids-r.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/breadcrumb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/forms-r.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/grids-core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/menus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/panels-r.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/panels.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -298,6 +255,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demeter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -432,13 +421,18 @@
       <created>1396958809072</created>
       <updated>1396958809072</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="scss源代码优化">
+      <created>1398616305246</created>
+      <updated>1398616305246</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="824" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -453,7 +447,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -501,7 +494,8 @@
     <MESSAGE value="增加了.btn-white&#10;修改了README文件" />
     <MESSAGE value="增加了Popover组件&#10;增加了UMEditor&#10;修复了一些布局BUG" />
     <MESSAGE value="修复了表单中的a标签按钮在响应式模式下的一个BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了表单中的a标签按钮在响应式模式下的一个BUG" />
+    <MESSAGE value="scss源代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="scss源代码优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
