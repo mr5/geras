@@ -6,15 +6,18 @@
   background: $text;
   color:$background;
   border:1px solid $background;
+  &:hover {
+    background: $background;
+    color: $text;
+  }
 }
 @mixin btn-colorful($background, $text) {
   background-color: $background;
   color: $text;
+  border: 1px solid $background;
   &.btn-bordered {
     @include btn-bordered($background, $text);
-    &:hover {
-      background: #efefef;
-    }
+
   }
 
 }
@@ -47,12 +50,11 @@
 
 
 .btn-white {
-  background: #fff;
-  color: inherit;
+  @include btn-colorful(#fff, inherit);
 }
 .btn-link {
   background: none;
-  border: 0;
+  border: 1px solid #fff;
 }
 
 

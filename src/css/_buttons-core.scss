@@ -3,7 +3,6 @@
 
   display: inline-block;
   *display: inline;
-  border: none;
   /* for IE 6/7 修复a标签的高度问题 - fixed high of tag 'a' */
   *zoom: 1;
   /* for IE 6/7 IE对Button的左右内边距设置的过大 */
@@ -13,8 +12,8 @@
   padding: 0 1.5em;
   @include border-radius(3px);
   cursor: pointer;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
 
   // font
   text-decoration: none;
@@ -22,7 +21,7 @@
   font-size: 14px;
   color: #656d78;
   background-color: #e6e6e6;
-
+  border: 1px solid #e6e6e6;
   // 按钮hove、激活，不支持IE6
   &.btn-hover,
   &:hover,

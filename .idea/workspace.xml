@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mixins.scss" afterPath="$PROJECT_DIR$/src/mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_buttons-core.scss" afterPath="$PROJECT_DIR$/src/css/_buttons-core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_buttons.scss" afterPath="$PROJECT_DIR$/src/css/_buttons.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demeter.iws" />
@@ -62,10 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_buttons.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_buttons.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/_buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="9" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1680">
+            <state line="27" column="13" selection-start="551" selection-end="551" vertical-scroll-proportion="0.61085975" vertical-offset="0" max-vertical-offset="1710">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons-core.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_buttons-core.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -83,7 +93,7 @@
       <file leaf-file-name="_typo.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/_typo.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="1" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="5460">
+            <state line="295" column="1" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0" vertical-offset="4425" max-vertical-offset="5460">
               <folding />
             </state>
           </provider>
@@ -92,25 +102,16 @@
       <file leaf-file-name="_normalize.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/_normalize.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="7" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="8070">
+            <state line="116" column="7" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="8070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_grids-r.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/_grids-r.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="24" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0" vertical-offset="932" max-vertical-offset="1635">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mixins.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="8" selection-start="8711" selection-end="8711" vertical-scroll-proportion="0.69875777" vertical-offset="3210" max-vertical-offset="3900">
+            <state line="244" column="8" selection-start="8711" selection-end="8711" vertical-scroll-proportion="-18.041666" vertical-offset="3227" max-vertical-offset="3900">
               <folding />
             </state>
           </provider>
@@ -163,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/css/_panels-r.scss" />
         <option value="$PROJECT_DIR$/src/css/_panels.scss" />
         <option value="$PROJECT_DIR$/src/css/_menus-r.scss" />
-        <option value="$PROJECT_DIR$/src/css/_buttons-core.scss" />
         <option value="$PROJECT_DIR$/src/css/_animations.scss" />
         <option value="$PROJECT_DIR$/index.jade" />
         <option value="$PROJECT_DIR$/src/css/_tables.scss" />
@@ -181,17 +181,18 @@
         <option value="$PROJECT_DIR$/src/tests/tests.scss" />
         <option value="$PROJECT_DIR$/src/variables.scss" />
         <option value="$PROJECT_DIR$/src/tests/buttons.jade" />
-        <option value="$PROJECT_DIR$/src/css/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/css/_typo.scss" />
         <option value="$PROJECT_DIR$/src/css/_normalize.scss" />
         <option value="$PROJECT_DIR$/src/mixins.scss" />
+        <option value="$PROJECT_DIR$/src/css/_buttons-core.scss" />
+        <option value="$PROJECT_DIR$/src/css/_buttons.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -324,6 +325,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -334,23 +343,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -438,31 +439,35 @@
       <created>1398620466889</created>
       <updated>1398620466889</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="scss源代码优化&#10;">
+      <created>1398620661094</created>
+      <updated>1398620661094</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="830" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17547569" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17758985" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32506886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32384825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -480,9 +485,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124736" sideWeight="0.6736672" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32506886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -597,11 +602,6 @@
     <entry file="file://$PROJECT_DIR$/src/css/_menus-r.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="1" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_buttons-core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="29" selection-start="730" selection-end="730" vertical-scroll-proportion="-17.5" vertical-offset="195" max-vertical-offset="915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_animations.scss">
@@ -744,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="9" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_typo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="295" column="1" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="5460">
@@ -779,9 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="23" selection-start="9086" selection-end="9086" vertical-scroll-proportion="0.5814978" vertical-offset="4659" max-vertical-offset="5340">
-          <folding />
-        </state>
+        <state line="337" column="23" selection-start="9086" selection-end="9086" vertical-scroll-proportion="0.5814978" vertical-offset="4659" max-vertical-offset="5340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_grids-r.scss">
@@ -793,7 +784,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="8" selection-start="8711" selection-end="8711" vertical-scroll-proportion="0.69875777" vertical-offset="3210" max-vertical-offset="3900">
+        <state line="244" column="8" selection-start="8711" selection-end="8711" vertical-scroll-proportion="-18.041666" vertical-offset="3227" max-vertical-offset="3900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_buttons-core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="551" selection-end="551" vertical-scroll-proportion="0.61085975" vertical-offset="0" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
