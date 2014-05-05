@@ -5,7 +5,7 @@
 .table {width: 100%;margin-bottom: 18px;}
 .table th,
 .table td {padding: 8px;line-height: 18px;text-align: left;vertical-align: middle;border-top: 1px solid #dddddd;}
-.table th {font-weight: bold;}
+.table th {font-weight: bold;color: darken($font-color-base, 15%)}
 .table thead th {vertical-align: bottom;}
 .table thead th,
 .table thead td{border-top:none;}

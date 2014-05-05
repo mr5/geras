@@ -10,10 +10,10 @@
 
   margin-right: 10px;
   padding: 0 1.5em;
-  @include border-radius(3px);
+  @include border-radius($radius-base);
   cursor: pointer;
-  height: 38px;
-  line-height: 38px;
+  height: $button-height-base;
+  line-height: $button-height-base;
 
   // font
   text-decoration: none;
@@ -26,11 +26,12 @@
   &.btn-hover,
   &:hover,
   &:focus {
-    background-image: none;
-
+//    background-image: none;
+    text-decoration: none;
     @include opacity(0.8);
     box-shadow: none;
     outline: 0;
+    color: inherit;
   }
 
   i {
@@ -40,15 +41,18 @@
   }
   @include user-select(none);
 }
-
+a.btn {
+  height: $button-height-base - 2px;
+  line-height: $button-height-base - 2px;
+}
 /* 按钮被禁用，不支持IE6 - disabled button, incompatible IE6*/
 .btn[disabled],
 .btn-disabled,
 .btn-disabled:hover,
 .btn-disabled:focus,
 .btn-disabled:active {
-  border: none;
-  background-image: none;
+//  border: none;
+//  background-image: none;
   @include opacity(0.4);
   cursor: not-allowed;
   box-shadow: none;

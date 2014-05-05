@@ -3,7 +3,7 @@
 /* 不同颜色的按钮 - button with different colors */
 
 @mixin btn-bordered($background, $text) {
-  background: $text;
+  background: none;
   color:$background;
   border:1px solid $background;
   &:hover {
@@ -17,79 +17,111 @@
   border: 1px solid $background;
   &.btn-bordered {
     @include btn-bordered($background, $text);
-
   }
-
+  &:hover {
+    color: $text;
+  }
 }
 .btn-primary,
 .btn-selected {
-  @include btn-colorful($color-primary, $color-primary-text);
+  @include btn-colorful($brand-primary, $brand-primary-text);
 }
 .btn-danger {
-  @include btn-colorful($color-danger, $color-danger-text);
+  @include btn-colorful($brand-danger, $brand-danger-text);
 }
 
 .btn-success {
-  @include btn-colorful($color-success, $color-success-text);
+  @include btn-colorful($brand-success, $brand-success-text);
 }
 .btn-info {
-  @include btn-colorful($color-info, $color-info-text);
+  @include btn-colorful($brand-info, $brand-info-text);
 }
 .btn-warning {
-  @include btn-colorful($color-warning, $color-warning-text);
+  @include btn-colorful($brand-warning, $brand-warning-text);
 }
 .btn-dake {
-  @include btn-colorful($color-dake, $color-danger-text);
+  @include btn-colorful($brand-dake, $brand-danger-text);
 }
 .btn-dakeLight {
-  @include btn-colorful($color-dakeLight, $color-dakeLight-text);
+  @include btn-colorful($brand-dakeLight, $brand-dakeLight-text);
 }
 .btn-purple {
-  @include btn-colorful($color-purple, $color-purple-text);
+  @include btn-colorful($brand-purple, $brand-purple-text);
 }
 
 
 .btn-white {
-  @include btn-colorful(#fff, inherit);
+  @include btn-colorful(#fff, $font-color-base);
 }
 .btn-link {
   background: none;
-  border: 1px solid #fff;
+  border: none;
 }
 
 
 // 不同尺寸的按钮 -
-.btn-xxsmall, .btn-xxs {
-  height: 18px;
-  padding-left: 6px;
-  padding-right: 6px;
+.btn {
+  &.btn-xxsmall, &.btn-xxs {
+    height: $button-height-base * 0.5;
+    line-height: $button-height-base * 0.5;
+    padding:0 6px;
+    font-size: 12px;
 
-  font-size: 12px;
-  line-height: 18px;
-}
+  }
+  &.btn-xsmall, &.btn-xs {
+    height: $button-height-base * 0.7;
+    line-height: $button-height-base * 0.7;
+    padding:0 12px;
+    font-size: 12px;
 
-.btn-small, .btn-s {
-  height: 32px;
-  line-height: 32px;
+  }
+  &.btn-small, &.btn-s {
+    height: $button-height-base * 0.8;
+    line-height: $button-height-base * 0.8;
+//    padding:0 12px;
+  }
+  &.btn-large, &.btn-l {
+    height: $button-height-base * 1.1;
+    line-height: $button-height-base * 1.1;
+//    padding:0 12px;
+  }
+  &.btn-xlarge, &.btn-xl {
+    height: $button-height-base * 1.25;
+    line-height: $button-height-base * 1.25;
+//    padding:0 2px;
+  }
 }
-
-.btn-xsmall, .btn-xs {
-  height: 26px;
-  line-height: 26px;
-  font-size: 12px;
-}
-
-.btn-large, .btn-l {
-  height: 46px;
-  line-height: 46px;
-  font-size: 14px;
-}
-
-.btn-xlarge, .btn-xl {
-  height: 52px;
-  line-height: 52px;
-  font-size: 16px;
-}
+//.btn-xxsmall, .btn-xxs {
+//  height: 18px;
+//  padding-left: 6px;
+//  padding-right: 6px;
+//
+//  font-size: 12px;
+//  line-height: 18px;
+//}
+//
+//.btn-small, .btn-s {
+//  height: 32px;
+//  line-height: 32px;
+//}
+//
+//.btn-xsmall, .btn-xs {
+//  height: 26px;
+//  line-height: 26px;
+//  font-size: 12px;
+//}
+//
+//.btn-large, .btn-l {
+//  height: 46px;
+//  line-height: 46px;
+//  font-size: 14px;
+//}
+//
+//.btn-xlarge, .btn-xl {
+//  height: 52px;
+//  line-height: 52px;
+//  font-size: 16px;
+//}
 
 /* 块级按钮*/
 .btn-block {

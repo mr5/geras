@@ -34,15 +34,15 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
             }
             type = type.toLowerCase();
             var icon = '&#x3437;'; // info
-            var text_cls = 'text-info-inverse';
+            var text_cls = 'color-info-inverse';
             switch(type){
                 case 'success':
                     icon = '&#x3435;'; // success
-                    text_cls = 'text-success-inverse';
+                    text_cls = 'color-success-inverse';
                     break;
                 case 'error':
                     icon = '&#x3432;';// error
-                    text_cls = 'text-danger-inverse';
+                    text_cls = 'color-danger-inverse';
                     break;
             }
             var content =
@@ -110,7 +110,7 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 
                 headerContent:title,
                 bodyContent:message,
-                footerContent:'<a class="btn  btn-small btn-primary"  id="J_demeterAlert_'+ guid +'">'+okBtn+'</a>',
+                footerContent:'<a class="btn  btn-small btn-dake"  id="J_demeterAlert_'+ guid +'">'+okBtn+'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },
@@ -162,8 +162,8 @@ KISSY.add('demeter/ui/Dialog', function (S,Node,Event, O,Util) {
                 width:400,
                 
                 headerContent:title,
-                bodyContent:'<form  id="J_demeterPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input dmt-u-7-8" id="J_demeterPromptInput_'+guid+'" value="'+ defaultValue +'"/></form>',
-                footerContent:'<a class="btn btn-small" style="margin-right: 20px;" id="J_demeterPromptCancel_'+ guid +'">取消</a>' + '<a  class="btn btn-primary btn-small"  ' +' id="J_demeterPrompt_'+ guid +'">'+ okBtn +'</a>',
+                bodyContent:'<form  id="J_demeterPromptForm_'+guid+'" class="label-block"><label class="label">'+ message +'</label><input type="text" class="input input-1" id="J_demeterPromptInput_'+guid+'" value="'+ defaultValue +'"/></form>',
+                footerContent:'<a class="btn btn-small"  id="J_demeterPromptCancel_'+ guid +'">取消</a>' + '<a  class="btn btn-dake btn-small"  ' +' id="J_demeterPrompt_'+ guid +'">'+ okBtn +'</a>',
                 align: {
                     points: ['cc', 'cc']
                 },

@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import "../../variables";
 @import "../../mixins";
 @font-face {
   font-family: 'dmt-iconfont';
@@ -17,8 +16,8 @@
 /* KISSY - OVERLAY */
 .ks-dialog {
   background: white;
-  border: 1px solid #e6e9ed;
-  @include box-shadow(2px 2px 2px #777);
+//  border: 1px solid #e6e9ed;
+  @include box-shadow(0 0 55px 4px #555);
   @include border-radius(2px);
 }
 
@@ -32,16 +31,21 @@
   }
   .ks-overlay-header {
     margin: 0;
-//    paddidmt-left: 15px;
+    //    paddidmt-left: 15px;
     border-bottom: 2px #eee solid;
     font-weight: bold;
-    padding: 15px;
+    padding:10px 15px;
     color: #434a54;
     font-size:14px;
-//    text-align: center;
+    //    text-align: center;
+    small {
+      color:#888;
+      margin-left:3em;
+      font-weight: normal;
+    }
   }
   .ks-overlay-close {
-//    margin: 1em;
+    //    margin: 1em;
   }
   .ks-overlay-close-x {
     margin-right: 13px;
@@ -62,19 +66,19 @@
 
   }
   .ks-overlay-body {
-    padding: 25px 15px;
+    padding: 15px;
     //    padding: 15px 0;
-//    font-size: 12px;
+    //    font-size: 12px;
     line-height: 1.5em;
-//    text-align: center;
+    //    text-align: center;
   }
   .ks-overlay-footer {
     @include clearfix();
-//    background: #f3f3f3;
-//    border-top: 1.5px solid #e6e9ed;
+    //    background: #f3f3f3;
+    //    border-top: 1.5px solid #e6e9ed;
 
     //    width: 100%;
-//    height: 34px;
+    //    height: 34px;
     margin-top: 0.4em;
     text-align: right;
     padding: 0.8em;
@@ -92,7 +96,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
       background-position: 0 0;
     }
     .ks-overlay-close-x:hover {
-//      background-size: 67px 32px;
+      //      background-size: 67px 32px;
       background-position: -17px 0;
     }
   }
@@ -101,9 +105,14 @@ only screen and (min-device-pixel-ratio: 1.5) {
   visibility: hidden; }
 
 .ks-overlay-mask {
-  background: #000;
-//  background:url(images/mask.gif);
-  @include opacity(0.3);
+//  background: #000;
+  //  background:url(images/mask.gif);
+//  @include opacity(0.3);
+  @include gradient-radial(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.65));
+  *background: #000;
+  *filter: alpha(opacity=30);
+
+
 }
 
 .ks-overlay-mask-hidden {
@@ -133,11 +142,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
   position: absolute;
   padding: 5px 10px;
   padding-left: 15px;
-//  height: 30px;
+  //  height: 30px;
   border: 3px solid rgba(0, 0, 0, 0.8);
   *border: 3px solid #000;
-//  width: 320px;
-//  font: 12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";
+  //  width: 320px;
+  //  font: 12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";
   background-color: #fff;
   @include border-radius(3px);
   .dmt-arrow {
@@ -173,7 +182,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
       *border-left-color: #000;
     }
   }
-//  @include opacity(0);
+  //  @include opacity(0);
 }
 /* 默认 left */
 //.dmt-popover
@@ -326,3 +335,24 @@ only screen and (min-device-pixel-ratio: 1.5) {
 //.dmt-popover-top .dmt-arrow
 //
 //.dmt-popover-top .dmt-arrow
+
+// 地址选择器
+.loc-picker-search-result  {
+  font-size:12px!important;
+  b, span,  *{
+    font-size:12px!important;
+
+  }
+  ol {
+    li, * {
+      font-size:12px!important;
+      div {
+        span {
+          font-size:12px!important;
+        }
+      }
+    }
+  }
+}
+
+// end：地址选择器

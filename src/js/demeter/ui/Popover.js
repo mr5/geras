@@ -259,7 +259,7 @@ KISSY.add('demeter/ui/Popover', function(S, Node, Event, XTemplate) {
                 align:align,
                 target:target,
                 height:30,
-                content:'<p><span id="J_DemeterPopConfirmMsg' + guid + '">'+ message +'</span>&nbsp;&nbsp;&nbsp;&nbsp;' +
+                content:'<p style="margin:0;"><span  id="J_DemeterPopConfirmMsg' + guid + '">'+ message +'</span>&nbsp;&nbsp;&nbsp;&nbsp;' +
                     '<a class="btn btn-xsmall btn-danger" id="J_DemeterPopoverOK' + guid +'">确定</a>' +
                     '<a class="btn btn-xsmall" id="J_DemeterPopoverCancel' + guid +'">取消</a>' +
                     '</p>'

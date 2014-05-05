@@ -1,40 +1,114 @@
-//$color-primary:#1975c3;
-//$color-danger:#ed5567;
-//$color-success:#33b07d;
-//$color-info:#02a4c6;
-//$color-warning:#ff6f3d;
-//$color-dake:#656d78;
-//$color-dakeLight:#ccd0d8;
-//$color-purple:#967adc;
+//$brand-primary:#1975c3;
+//$brand-danger:#ed5567;
+//$brand-success:#33b07d;
+//$brand-info:#02a4c6;
+//$brand-warning:#ff6f3d;
+//$brand-dake:#656d78;
+//$brand-dakeLight:#ccd0d8;
+//$brand-purple:#967adc;
 
 .color-primary {
-  color: $color-primary;
+  color: $brand-primary;
 }
 
 .color-danger {
-  color: $color-danger;
+  color: $brand-danger;
 }
-
+.color-danger-inverse {
+  color: lighten($brand-danger, 15%);
+}
 .color-success {
-  color: $color-success;
+  color: $brand-success;
 }
-
+.color-success-inverse {
+  color: lighten($brand-success, 25%);
+}
 .color-info {
-  color: $color-info;
+  color: $brand-info;
 }
-
+.color-info-inverse {
+  color: lighten($brand-info, 25%);
+}
 .color-warning {
-  color: $color-warning;
+  color: $brand-warning;
 }
 
 .color-dake {
-  color: $color-dake;
+  color: $brand-dake;
 }
 
 .color-dakeLight {
-  color: $color-dakeLight;
+  color: $brand-dakeLight;
 }
 
 .color-purple {
-  color: $color-purple;
+  color: $brand-purple;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ */
+
+.clearfix {
+  @include clearfix();
+}
+
+
+/*
+ * Image replacement
+ */
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+
+.hidden {
+  display: none;
+  //  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  .focusable{
+    &:active,&:focus{
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+  }
 }

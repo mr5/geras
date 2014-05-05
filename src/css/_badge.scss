@@ -1,20 +1,49 @@
+@mixin badge-colorful($background, $text) {
+  background-color: $background;
+  color: $text;
+}
+
 .badge {
 //  @include badge-style($badge-default-bg, $badge-default-text);
 //  z-index: $z-index-badge;
-  background: $color-primary;
-  color: #fff;
-  display: inline-block;
-  padding: 3px 8px;
-  min-width: 10px;
-  @include border-radius(24px);
-  vertical-align: baseline;
+  font-size: 12px;
+  font-weight: bold;
   text-align: center;
+  line-height: $font-size-base;
+
+  color: #ffffff;
   white-space: nowrap;
-//  font-weight: $badge-font-weight;
-//  font-size: $badge-font-size;
-//  line-height: $badge-line-height;
+  vertical-align: baseline;
+  background-color: #e6e6e6;
+  padding: 5px 8px 4px 8px;
+  @include border-radius(25px);
 
   &:empty {
     display: none;
+  }
+  &.badge-primary {
+    @include badge-colorful($brand-primary, $brand-primary-text);
+  }
+  &.badge-danger {
+    @include badge-colorful($brand-danger, $brand-danger-text);
+  }
+  &.badge-info {
+    @include badge-colorful($brand-info, $brand-info-text);
+  }
+  &.badge-success {
+    @include badge-colorful($brand-success, $brand-success-text);
+  }
+  &.badge-dake {
+    @include badge-colorful($brand-dake, $brand-dake-text);
+  }
+  &.badge-white {
+       @include badge-colorful(white, $brand-danger);
+  }
+
+
+}
+.btn {
+  .badge {
+    margin-left:24px;
   }
 }

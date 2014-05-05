@@ -2,6 +2,8 @@ doctype html
 html
     head
         title JS组件 - Demeter CSS UI set
+        script.
+            var jsComponenetsPage = true;
         include ../head
     body
         include ../menu
@@ -26,7 +28,7 @@ html
                             a.btn.btn-info#J_DialogTip2 tip消息提示-info
                             a.btn.btn-danger#J_DialogTip3 tip消息提示3-danger
                     .panel
-                        .panel-heading 富文本输入框，来自UEditor
+                        .panel-heading: h3 富文本输入框，来自UEditor
                         .panel-body
                             //<div style="width:800px;margin:20px auto 40px;">
                             //    <script type="text/plain" id="editor" style="width:100%;height:360px;"></script>
@@ -34,7 +36,7 @@ html
                             //div(style="width:800px;margin:20px auto 40px;")
                             textarea#J_RichTextarea.dmt-u-1(style="height:400px;")
                     .panel
-                        .panel-heading popover组件
+                        .panel-heading: h3 popover组件
                         .panel-body
                             a.btn.btn-danger.J_DemeterPopover confirm popover left
                             a.btn.btn-danger.J_DemeterPopover confirm popover right

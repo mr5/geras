@@ -8,11 +8,16 @@ KISSY.ready(function () {
         current_page_url = current_page_url.substr(current_page_url.indexOf('tests/') + 6);
         var active = current_page_url.substring(0, current_page_url.indexOf('.html'));
         if (active != null) {
-            Node.one('#J_nav_' + active).addClass('active');
+            if (Node.one('#J_nav_' + active)) {
+                Node.one('#J_nav_' + active).addClass('active');
+            }
         }
 
         // 代码高亮渲染
-        Node.all('pre').addClass('prettyprint');
+        if (Node.all('pre')) {
+            Node.all('pre').addClass('prettyprint');
+
+        }
         prettyPrint();
     });
 });
@@ -43,37 +48,41 @@ KISSY.config({
     ]
 });
 KISSY.ready(function () {
-    KISSY.use('node, demeter/ui/Dialog', function (S, Node, Dialog) {
-        Node.one('#J_DialogAlert').on('click', function () {
-            Dialog.alert('你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年');
-        });
-        Node.one('#J_DialogConfirm').on('click', function () {
-            Dialog.confirm('我是confrim对话框，你真要这么做吗？', function () {
-                Dialog.alert('你点击了确定');
-            }, function () {
-                Dialog.alert('你点击了否');
+//    alert(jsComponenetsPage);
+//    var jsComponenetsPage = jsComponenetsPage || false;
+    if (typeof jsComponenetsPage !== 'undefined') {
+        KISSY.use('node, demeter/ui/Dialog', function (S, Node, Dialog) {
+
+            Node.one('#J_DialogAlert').on('click', function () {
+                Dialog.alert('你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年你这样是不对的，骚年');
+            });
+            Node.one('#J_DialogConfirm').on('click', function () {
+                Dialog.confirm('我是confrim对话框，你真要这么做吗？', function () {
+                    Dialog.alert('你点击了确定');
+                }, function () {
+                    Dialog.alert('你点击了否');
+                });
+            });
+            Node.one('#J_DialogPrompt').on('click', function () {
+                Dialog.prompt('我是prompt对话框，请输入一些文本：', function (val) {
+                    Dialog.alert('你输入了：' + val);
+                });
+            });
+            Node.one('#J_DialogTip').on('click', function () {
+                Dialog.tip('你的操作已经成功！', 'success');
+            });
+            Node.one('#J_DialogTip2').on('click', function () {
+                Dialog.tip('这里是一些提示信息', 'info');
+            });
+            Node.one('#J_DialogTip3').on('click', function () {
+                Dialog.tip('操作失败！请重试！', 'error');
             });
         });
-        Node.one('#J_DialogPrompt').on('click', function () {
-            Dialog.prompt('我是prompt对话框，请输入一些文本：', function (val) {
-                Dialog.alert('你输入了：' + val);
-            });
+        KISSY.use('demeter/ui/umeditor/, demeter/ui/umeditor/config', function (S, UMEditor, umConfig) {
+            var _um = new UMEditor(umConfig);
+            _um.render('J_RichTextarea');
         });
-        Node.one('#J_DialogTip').on('click', function () {
-            Dialog.tip('你的操作已经成功！', 'success');
-        });
-        Node.one('#J_DialogTip2').on('click', function () {
-            Dialog.tip('这里是一些提示信息', 'info');
-        });
-        Node.one('#J_DialogTip3').on('click', function () {
-            Dialog.tip('操作失败！请重试！', 'error');
-        });
-    });
-    KISSY.use('demeter/ui/umeditor/, demeter/ui/umeditor/config', function (S, UMEditor, umConfig) {
-        var _um = new UMEditor(umConfig);
-        _um.render('J_RichTextarea');
-    });
-    KISSY.use('demeter/ui/Popover,node,demeter/ui/Dialog', function (S, Popover, Node, Dialog) {
+        KISSY.use('demeter/ui/Popover,node,demeter/ui/Dialog', function (S, Popover, Node, Dialog) {
 //        console.log(Popover.confirm);
 //        var confirm = Node.all('.J_DemeterPopover');
 //        var _popover = new Popover({
@@ -88,18 +97,19 @@ KISSY.ready(function () {
 //            _popover.setAlign('auto');
 //            _popover.show();
 //        });
-        //return;
-        Node.one('#J_ConfirmPopoverLeft').on('click', function (e) {
-            Popover.confirm(Node.one(e.currentTarget), '你确定要这样做吗？', function () {
-                Dialog.tip('你点击了确定！');
-            }, 'right', function () {
-                Dialog.tip('你点击了取消！');
+            //return;
+            Node.one('#J_ConfirmPopoverLeft').on('click', function (e) {
+                Popover.confirm(Node.one(e.currentTarget), '你确定要这样做吗？', function () {
+                    Dialog.tip('你点击了确定！');
+                }, 'right', function () {
+                    Dialog.tip('你点击了取消！');
+                });
+            });
+            Node.one('#J_PromptPopoverLeft').on('click', function (e) {
+                Popover.prompt(Node.one(e.currentTarget), '请输入关键词：', function (val) {
+                    Dialog.tip('你输入了：' + val);
+                }, '', 'bottom');
             });
         });
-        Node.one('#J_PromptPopoverLeft').on('click', function (e) {
-            Popover.prompt(Node.one(e.currentTarget), '请输入关键词：', function (val) {
-                Dialog.tip('你输入了：' + val);
-            },'','bottom');
-        });
-    });
+    }
 });

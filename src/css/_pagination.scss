@@ -20,10 +20,10 @@
     }
   }
   .current {
-    background: $color-primary;
+    background: $brand-primary;
     border-width: 1px 1px 1px 0;
     border-style: solid;
-    border-color: $color-primary;
+    border-color: $brand-primary;
     pointer-events: none;
     color: #fff;
   }
