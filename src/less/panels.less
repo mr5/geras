@@ -1,0 +1,30 @@
+@charset "utf-8";
+.panel {
+  border: 1px solid @border-color-base;
+  .border-radius(@radius-base);
+  background: white;
+  // 无内边距的面板
+  &.panel-compact {
+    .panel-heading, .panel-body {
+      padding: 0;
+    }
+  }
+  margin-bottom:1em;
+}
+.panel-heading {
+  padding:0 1.5em;
+  border-bottom: 1px solid #e6e9ed;
+//  color: darken(@font-color-base, 10%);
+//  font: 400 18px/50px arial,"Hiragino Sans GB","Microsoft YaHei",SimHei,sans-serif;
+//  color: #434a54;
+
+//  font-size:18px;
+  h1, h2, h3, h4, h5, h6 {
+//    font-weight: 400;
+    color: darken(@font-color-base, 15%);
+  }
+}
+
+.panel-body {
+  padding: 1.5em;
+}

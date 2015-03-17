@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc623be2-d6e4-4023-814c-fb9fdd43ebdf" name="Default" comment="修复线框风格按钮与反白按钮的高度不一致问题（因为反白按钮无border）&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/badge.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/breadcrumb.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/buttons-core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/demeter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/forms-r.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/grids-core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/grids-r.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/menus-r.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/menus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/panels-r.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/typo.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/utilities.less" />
     </list>
     <ignored path="demeter.iws" />
     <ignored path=".idea/workspace.xml" />

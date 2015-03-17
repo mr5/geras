@@ -1,0 +1,59 @@
+@charset "utf-8";
+.btn {
+
+  display: inline-block;
+  *display: inline;
+  /* for IE 6/7 修复a标签的高度问题 - fixed high of tag 'a' */
+  *zoom: 1;
+  /* for IE 6/7 IE对Button的左右内边距设置的过大 */
+  *overflow: visible;
+
+  margin-right: 10px;
+  padding: 0 1.5em;
+  .border-radius(@radius-base);
+  cursor: pointer;
+  height: @button-height-base;
+  line-height: @button-height-base;
+
+  // font
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: #656d78;
+  background-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  // 按钮hove、激活，不支持IE6
+  &.btn-hover,
+  &:hover,
+  &:focus {
+//    background-image: none;
+    text-decoration: none;
+    .opacity(0.8);
+    box-shadow: none;
+    outline: 0;
+    color: inherit;
+  }
+
+  i {
+    position: relative;
+    *top: 1px;
+    margin-right: 5px;
+  }
+  .user-select(none);
+}
+a.btn {
+  height: @button-height-base - 2px;
+  line-height: @button-height-base - 2px;
+}
+/* 按钮被禁用，不支持IE6 - disabled button, incompatible IE6*/
+.btn[disabled],
+.btn-disabled,
+.btn-disabled:hover,
+.btn-disabled:focus,
+.btn-disabled:active {
+//  border: none;
+//  background-image: none;
+  .opacity(0.4);
+  cursor: not-allowed;
+  box-shadow: none;
+}
