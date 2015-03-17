@@ -1,8 +1,0 @@
-{
-  "name": "demeter",
-  "version": "0.1-alpha",
-  "main": "build/demeter.css",
-  "devDependencies": {
-    "normalize-css": "1.1.3"
-  }
-}

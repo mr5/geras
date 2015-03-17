@@ -1,0 +1,71 @@
+doctype html
+html
+    head
+        title JS组件 - Demeter CSS UI set
+        script.
+            var jsComponenetsPage = true;
+        include head
+    body
+        include menu
+        .wrapper.container
+            .dmt-g-r
+                .dmt-u-4-24
+                    .menu
+                        li.menu-item: a 对话框
+                        li.menu-item: a 面包屑
+                        li.menu-item: a 分页
+                        li.menu-item: a 面板
+
+                .dmt-u-19-24.dmt-o-1
+                    .panel.panel-margin-left
+                        .panel-heading: h3 对话框
+                        .panel-body
+                            p 点击以下按钮查看效果
+                            a.btn.btn-primary#J_DialogAlert alert对话框
+                            a.btn.btn-danger#J_DialogConfirm confirm对话框
+                            a.btn.btn-warning#J_DialogPrompt prompt对话框
+                            a.btn.btn-success#J_DialogTip tip消息提示-success
+                            a.btn.btn-info#J_DialogTip2 tip消息提示-info
+                            a.btn.btn-danger#J_DialogTip3 tip消息提示3-danger
+                    .panel
+                        .panel-heading: h3 富文本输入框，来自UEditor
+                        .panel-body
+                            //<div style="width:800px;margin:20px auto 40px;">
+                            //    <script type="text/plain" id="editor" style="width:100%;height:360px;"></script>
+                            //</div>
+                            //div(style="width:800px;margin:20px auto 40px;")
+                            textarea#J_RichTextarea.dmt-u-1(style="height:400px;")
+                    .panel
+                        .panel-heading: h3 popover组件
+                        .panel-body
+                            a.btn.btn-danger.J_DemeterPopover confirm popover left
+                            a.btn.btn-danger.J_DemeterPopover confirm popover right
+                            a.btn.btn-danger.btn-info#J_PromptPopoverLeft popover prompt
+                            a.btn.btn-danger#J_ConfirmPopoverLeft confirm popover bottom
+
+
+    //.dmt-popover.dmt-popover-left
+                            //    p
+                            //        |你确定要这样做吗？ &nbsp;&nbsp;&nbsp;
+                            //        a.btn.btn-danger.btn-xsmall 确认
+                            //        a.btn.btn-xsmall 取消
+                            //
+                            //    .dmt-arrow
+                            //        span.border-arrow.border-arrow-down
+                            //        span.border-arrow.border-arrow-up
+                            //.dmt-popover.dmt-popover-left
+                            //
+                            //    p
+                            //        |你确定要这样做吗？ &nbsp;&nbsp;&nbsp;
+                            //        input.input
+                            //        |&nbsp;&nbsp;&nbsp;
+                            //        a.btn.btn-info.btn-small 确认
+                            //        //a.btn.btn-small 取消
+                            //
+                            //    .dmt-arrow
+                            //        span.border-arrow.border-arrow-down
+                            //        span.border-arrow.border-arrow-up
+                            //|<div class="NG-Arrow"><span class="border-arrow border-arrow-down"></span><span class="border-arrow border-arrow-up"></span></div><a class="NG-Guide-Close" href="javascript:void(0);" title="关闭"></a></div>
+
+
+

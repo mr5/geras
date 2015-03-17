@@ -1,0 +1,42 @@
+doctype html
+html
+    head
+        title 菜单演示 - Demeter CSS UI Set
+        include head
+    body#page-buttons
+        include menu
+        .panel.wrapper.container
+            .panel-heading: h3 菜单演示
+            mixin menus(classes_extend)
+                ul.menu(class=classes_extend)
+                    li.menu-item
+                        a(href="#") 首页
+                    li.menu-item.active
+                        a(href="#") 产品介绍
+                    li.menu-item
+                        a(href="#") 关于我们
+                    li.menu-item
+                        a(href="#") 联系我们
+                    li.menu-item
+                        a(href="#") 加入我们
+
+
+            .panel-body
+                h3.h-line 横排菜单
+                    small: a.btn.btn-xsmall 查看代码
+                +menus('menu-horizontal')
+
+                h3.h-line 横排菜单 - 自定义文字颜色
+                +menus('menu-horizontal menu-red')
+
+                h3.h-line 横排菜单 - 自定义背景色
+                +menus('menu-horizontal menu-bg-blue')
+
+                h3.h-line 横排菜单 - 自定义背景色与高度
+                +menus('menu-horizontal menu-bg-red')
+
+                h3.h-line 竖排菜单
+                +menus('dmt-u-1-4')
+
+                h3.h-line 竖排菜单 - 自定义颜色
+                +menus('dmt-u-1-4 menu-blue')

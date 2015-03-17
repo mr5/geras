@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "../../src/variables";
+@import "../../src/mixins";
+//! 本文件中的样式仅用于演示
+
+.container {
+  margin: 3em;
+//  background: white;
+  border-radius: 5px;
+//  padding: 1.5em;
+  box-sizing: border-box;
+}
+.wrapper {
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#tests_nav {
+  background: #2d3e50;
+}
+#page-buttons {
+  .btn {
+    margin: 0.5em;
+  }
+}
+.menu {
+  &.menu-red {
+    .menu-item a:hover, .active a {
+      color: #dd4250;
+    }
+  }
+  &.menu-bg-blue {
+    background: #1975c3!important;
+    border-radius: 4px;
+
+    .menu-item a{
+      border-radius: 3px;
+      color: white!important;
+    }
+    .menu-item a:hover, .active a {
+      background: rgb(71,144,207);
+      color: white!important;
+
+    }
+  }
+  &.menu-bg-red {
+    background: #ed5567!important;
+    border-radius: 4px;
+
+    .menu-item a{
+      color:white!important;
+      line-height: 36px;
+      height: 36px;
+      font-size:13px;
+
+    }
+    .menu-item a:hover, .active a {
+      background: lighten(#ed5567,8%);
+      color: white;
+
+    }
+  }
+  &.menu-blue {
+    border: none;
+
+    a {
+      border-radius: 3px;
+      color: white;
+
+    }
+    .menu-item a:hover {
+      background: #eee;
+      color: #666!important;
+    }
+    .active a {
+      background: #428bca;
+      color: white!important;
+      /*background: none;*/
+    }
+  }
+}
+#page-grids {
+  .dmt-g-r {
+    margin-bottom: 1em;
+  }
+}
+.tests-grid-content {
+  background: #eee;
+  line-height: 36px;
+  text-align: center;
+  margin: 5px;
+  .border-radius(3px);
+}
+.test {
+  color:lighten(#434a54, 40%)
+}

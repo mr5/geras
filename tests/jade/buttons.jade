@@ -1,0 +1,59 @@
+doctype html
+html
+    head
+
+        title 按钮 - Demeter CSS UI set
+        include head
+    body#page-buttons
+        include menu
+        .panel.container.wrapper
+            .panel-heading: h3 按钮测试
+            .panel-body
+                h4 常规按钮
+                p
+                    button.btn 常规按钮
+                    a.btn='<a>标签按钮'
+
+                h4 不可用的按钮
+                p
+                    button.btn.btn-disabled button按钮
+                    a.btn.btn-disabled="<a>标签按钮"
+
+                h4 active按钮
+                p
+                    button.btn.btn-active button按钮
+                    a.btn.btn-active="<a>标签按钮"
+
+                h4 不同颜色的按钮
+                p
+                    a.btn   .btn
+                    a.btn.btn-primary   .btn.btn-primary
+                    a.btn.btn-success   .btn.btn-success
+                    a.btn.btn-danger    .btn.btn-danger
+                    a.btn.btn-warning   .btn.btn-warning
+                    a.btn.btn-info      .btn.btn-info
+                    a.btn.btn-purple    .btn.btn-purple
+                    a.btn.btn-dake      .btn.btn-dake
+                    a.btn.btn-dakeLight .btn.btn-dakeLight
+                    a.btn.btn-link      .btn.btn-link
+                h4 纯边框的按钮
+                    p
+                        a.btn.btn-primary.btn-bordered   .btn.btn-primary.btn-bordered
+                        a.btn.btn-success.btn-bordered   .btn.btn-success.btn-bordered
+                        a.btn.btn-danger.btn-bordered    .btn.btn-danger.btn-bordered
+                        a.btn.btn-warning.btn-bordered   .btn.btn-warning.btn-bordered
+                        a.btn.btn-info.btn-bordered      .btn.btn-info.btn-bordered
+                        a.btn.btn-purple.btn-bordered    .btn.btn-purple.btn-bordered
+                        a.btn.btn-dake.btn-bordered      .btn.btn-dake.btn-bordered
+
+                h4 不同尺寸的按钮
+                p
+                    a.btn.btn-xxsmall    .btn.btn-xxsmall
+
+                    a.btn.btn-xsmall    .btn.btn-xsmall
+                    a.btn.btn-small     .btn.btn-small
+                    a.btn               我是.btn
+                    a.btn.btn-large     .btn.btn-large
+                    a.btn.btn-xlarge    .btn.btn-xlarge
+
+    p.wrapper Demeter is a CSS UI set with IE6/7/8 compatibility and responsive, Licensed under MIT. Contact: mr5.simple@gmail.com

@@ -1,0 +1,79 @@
+doctype html
+html
+    head
+        title 组件 - Demeter CSS UI set
+        include head
+    body
+        include menu
+        .wrapper.container
+            .dmt-g-r
+                .dmt-u-4-24
+                    .menu
+                        li.menu-item: a 面板
+                        li.menu-item: a 面包屑
+                        li.menu-item: a 分页
+                        li.menu-item: a 面板
+
+                .dmt-u-19-24.dmt-o-1
+                    .panel
+                        .panel-heading: h3 面板
+                        .panel-body
+                            p 面板
+
+                    .panel
+                        .panel-heading: h3 面包屑
+                        .panel-body
+                            ol.breadcrumb
+                                li: a(href="javascript:void();") Demeter
+                                li /
+                                li: a(href="javascript:void();") 组件
+                                li /
+                                li 面包屑
+                            p 注意：这里为了兼容IE6/7，与bootstrap不同，分割符无法自动地通过CSS的:before和content添加上，必须手写。
+                    .panel
+                        .panel-heading: h3 分页
+                        .panel-body
+                            // <div class="pagination clearfix">
+                                                      <a href="#" class="prev">上一页</a>
+                                                      <span class="ellipsis">…</span>
+                                                      <span class="current">1</span>
+                                                      <a href="#" >2</a>
+                                                      <a href="#" >3</a>
+                                                      <a href="#">4</a>
+                                                      <a href="#">5</a>
+                                                      <a href="#" >6</a>
+                                                      <a href="#" >7</a>
+                                                      <a href="#"href="#" >9</a>
+                                                      <a href="#">10</a>
+                                                      <a href="#">11</a>
+                                                      <span class="ellipsis">…</span>
+                                                      <a href="#"class="next">下一页</a></div>
+                            .pagination.clearfix
+                                a.prev(href="#") 上一页
+                                span.current 1
+                                a(href="#") 2
+                                a(href="#") 3
+                                a(href="#") 4
+                                a(href="#") 5
+                                a(href="#") 6
+                                a(href="#") 7
+                                a(href="#") 8
+                                a(href="#") 10
+                                a(href="#") ...
+                                a.next(href="#") 下一页
+                    .panel
+                        .panel-heading: h3 徽章
+                        .panel-body
+                            span.badge 1
+                            span.badge.badge-dake 2
+
+
+                            span.badge.badge-primary 3
+                            span.badge.badge-danger 4
+                            span.badge.badge-info 5
+                            span.badge.badge-success 6
+                            span.badge.badge-white 1
+
+                            a.btn.btn-primary
+                                | 带徽章的按钮
+                                span.badge.badge-white 4
